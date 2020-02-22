@@ -6,12 +6,14 @@ Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jaganna
 Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use Theme function in Options.
 
 ## Known issue
+Probably cannot be changed in the theme file.
 - Text color fixed to black. (Supported with background gray)
 - Link color fixed to blue.
+- Progress bar color fixed.
 - Icon layout, strangeness of check items、In right-click transfer list.
 
 ## Compile
-rename to `stylesheet.qss`, and compile `resources.qrc` by qc rcc.
+rename `src\~stylesheet.qss`  to `src\stylesheet.qss`, and compile `resources.qrc` by qt rcc.
 
 ## License
 [Jagannatharjun says](https://github.com/qbittorrent/qBittorrent/issues/6434#issuecomment-581101910):
