@@ -1,0 +1,1 @@
+from https://github.com/qbittorrent/qBittorrent/tree/master/src/icons/skin
