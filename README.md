@@ -9,8 +9,9 @@ Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use T
 Please use [this place](issues/1).
 
 ## Known issue
-*[More info: Issues waiting for release 4.22](issues/2)*
+*[More info: Issues waiting for release 4.22](issues/2)*<br>
 *[Unknown issue](issues/3)*
+
 Probably cannot be changed in the theme file.
 - Text color fixed to black. (Supported with background gray) (Wait ver4.2.2)
 - Link color fixed to blue.
