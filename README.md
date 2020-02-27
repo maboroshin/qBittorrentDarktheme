@@ -6,11 +6,11 @@ Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jaganna
 Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use Theme function in Options.
 
 ## Q&A
-Please use [this place](issues/1).
+Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issues/1).
 
 ## Known issue
 *[More info: Issues waiting for release 4.22](https://github.com/maboroshin/qBittorrentDarktheme/issues/2)*<br>
-*[Unknown issue](https://github.com/maboroshin/qBittorrentDarktheme/issues/3)*
+*[More info2: Unknown issue](https://github.com/maboroshin/qBittorrentDarktheme/issues/3)*
 
 Probably cannot be changed in the theme file.
 - Text color fixed to black. (Supported with background gray) (Wait ver4.2.2)
