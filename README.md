@@ -5,15 +5,22 @@ Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jaganna
 ## Usage
 Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use Theme function in Options.
 
+## Q&A
+Please use [this place](issues/1).
+
 ## Known issue
+*[More info: Issues waiting for release 4.22](issues/2)*
+*[Unknown issue](issues/3)*
 Probably cannot be changed in the theme file.
-- Text color fixed to black. (Supported with background gray)
+- Text color fixed to black. (Supported with background gray) (Wait ver4.2.2)
 - Link color fixed to blue.
-- Progress bar color fixed.
-- Icon layout, strangeness of check items、In right-click transfer list.
+- Progress bar color fixed. (Wait ver4.2.2)
+- Icon layout, strangeness of check items, In right-click transfer list.
 
 ## Compile
-rename `src\~stylesheet.qss`  to `src\stylesheet.qss`, and compile `resources.qrc` by qt rcc.
+*[More info...](wiki/How-to-compile-.qbtheme)*
+
+Rename `src\stylesheet~~.qss`  to `src\stylesheet.qss`, and compile `resources.qrc` by Qt rcc.
 
 ## License
 [Jagannatharjun says](https://github.com/qbittorrent/qBittorrent/issues/6434#issuecomment-581101910):
@@ -25,4 +32,4 @@ rename `src\~stylesheet.qss`  to `src\stylesheet.qss`, and compile `resources.qr
 He created the .qbttheme for qBittorrent. So I think it's not copyrightable or means public domain.
 
 - [qBittorrent: Icon by Code Charm: MIT License](https://github.com/qbittorrent/qBittorrent/blob/master/src/icons/qbt-theme/README.md).
-- [QDarkStyleSheet by Colin Duquesnoy et al: MIT and CCBY4.0 License](https://github.com/ColinDuquesnoy/QDarkStyleSheet).
+- [(Used Icon) QDarkStyleSheet by Colin Duquesnoy et al: MIT and CCBY4.0 License](https://github.com/ColinDuquesnoy/QDarkStyleSheet).
