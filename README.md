@@ -32,5 +32,5 @@ Rename `src\stylesheet~~.qss`  to `src\stylesheet.qss`, and compile `resources.q
 
 He created the .qbttheme for qBittorrent. So I think it's not copyrightable or means public domain.
 
-- [qBittorrent: Icon by Code Charm: MIT License](https://github.com/qbittorrent/qBittorrent/blob/master/src/icons/qbt-theme/README.md).
-- [(Used Icon) QDarkStyleSheet by Colin Duquesnoy et al: MIT and CCBY4.0 License](https://github.com/ColinDuquesnoy/QDarkStyleSheet).
+- [qBittorrent: Icons by Code Charm: MIT License](https://github.com/qbittorrent/qBittorrent/blob/master/src/icons/qbt-theme/README.md).
+- [(Used Icons, stylesheet.qss) QDarkStyleSheet by Colin Duquesnoy et al: MIT and CCBY4.0 License](https://github.com/ColinDuquesnoy/QDarkStyleSheet).
