@@ -33,21 +33,21 @@ configuration is described bellow.
 
 	BACKGROUND -----------
 
-		Light #01060E (unpressed)
-		Norma #273747 (border, disabled, pressed, checked, toolbars, menus)
-		Dark  #0A0E14 (background)
+		Light     #01060E (unpressed)
+		Normal #273747 (border, disabled, pressed, checked, toolbars, menus)
+		Dark     #0A0E14 (background)
 
 	FOREGROUND -----------
 
-		Light #B3B1AD (texts/labels)
-		Normal         #AAAAAA (not used yet)
-		Dark  #626A73 (disabled texts)
+		Light   #B3B1AD (texts/labels)
+		Normal               (not used yet)
+		Dark   #626A73 (disabled texts)
 
 	SELECTION ------------
 
-		Light #F07178 (selection/hover/active)
-		Norma #39BAE6 (selected)
-		Dark  #59C2FF (selected disabled)
+		Light    #F07178 (selection/hover/active)
+		Normal #39BAE6 (selected)
+		Dark     #59C2FF (selected disabled)
 
 If a stranger configuration is required because of a bugfix or anything
 else, keep the comment on the line above so nobody changes it, including the
@@ -427,8 +427,7 @@ QMenu::item {
   border: 1px solid transparent; */
 }
 
-QMenuBar QMenu::item,
-QTreeView QMenu::item { /* = QWidget::item QTreeView QMenu::item */
+QMenuBar QMenu::item {
   padding-left: 3px; /* Add */
 }
 
@@ -437,9 +436,14 @@ QMenuBar QMenu::item QMenu::item { /* sub menu */
 }
 
 QMenu::item:selected,
-QMenu::item:hover {
+QMenu::item:hover { /* Add */
   color: #39BAE6; /* change */
-  background-color: #01060E; /* Add */
+  background-color: #01060E;
+}
+
+QMenuBar QMenu::item:selected,
+QMenuBar QMenu::item:hover { /* Add elm */
+  color: #C2D94C;
 }
 
 QMenu::icon {
@@ -497,7 +501,7 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qcombobox
 
 --------------------------------------------------------------------------- */
 QAbstractItemView { /* patch : not here : copy to TreeView section */ /* Delete
-  alternate-background-color: #0A0E14; */ /* change *//* Memo: Transfer list each item: alta item only : can't hover et */
+  alternate-background-color: #0A0E14; */ /* change *//* Memo: Transfer list each item: alt item only : can't hover et */
   color: #B3B1AD;
   border: 1px solid #0A0E14;
   border-radius: 4px;
@@ -673,7 +677,7 @@ QTextEdit:selected {
 /* QPlainTextEdit ---------------------------------------------------------
 
 --------------------------------------------------------------------------- */
-QPlainTextEdit { /* in Option : RSS */
+QPlainTextEdit { /* in Option : RSS , Edit trackers*/
   background-color: #01060E; /* change */
   color: #B3B1AD;
   border: 1px solid #0A0E14;
@@ -866,7 +870,7 @@ QLabel::disabled {
 https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qabstractscrollarea
 
 --------------------------------------------------------------------------- */
-QTextBrowser { /* About Special thanks */
+QTextBrowser { /* RSS right */
   background-color: #01060E;
   border: 1px solid #273747;
   color: #B3B1AD;
@@ -1042,7 +1046,7 @@ QTabWidget QPushButton { /* Add elm : RSS tab */
   border: 1px solid #01060E;
   font-weight: normal;
 }
-QSplitter QPushButton { /* Add elm : for bottom button (Speed et) */
+QTabWidget QSplitter QPushButton { /* Add elm : for bottom button (Speed et) , Rename, Edit trackers et*/
   background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
               stop:0 #01060E , stop: 0.4 #273747 , stop: 0.6 #273747 , stop:1 #01060E ); /* Change */
   border-radius: 8px;
@@ -1051,7 +1055,7 @@ QSplitter QPushButton { /* Add elm : for bottom button (Speed et) */
   padding: 4px 10px;
   font-weight: normal;
 }
-QSplitter QPushButton:hover {
+QTabWidget QSplitter QPushButton:hover {
   margin-left: 2px;
 }
 
@@ -1364,8 +1368,10 @@ QLineEdit {  /* Search box (Find bar) or option's path */
   border-radius: 5px; /* change */
 }
 
-QToolBar QLineEdit, QTabWidget QLineEdit,
-QToolBar QLineEdit:hover, QTabWidget QLineEdit:hover { /* Add elm : assum Main window Search box */
+QToolBar QLineEdit, QToolBar QLineEdit:hover,
+QTabWidget QLineEdit, QTabWidget QLineEdit:hover,
+QTabWidget QStackedWidget QStackedWidget QLineEdit,
+QTabWidget QStackedWidget QStackedWidget QLineEdit:hover { /* Add elm : assum Main window Search box */
   border: 1px solid #0A0E14; /* change */
   padding: 6px;
 }
@@ -1430,11 +1436,11 @@ QTabWidget QListView { /* log */
   border: 0 solid #0A0E14;
 }
 
-QTabWidget QGroupBox,
-QTabWidget QLineEdit,
+/*QTabWidget QGroupBox,*/
+/* QTabWidget QLineEdit, */
 QTabWidget QComboBox,
 QTabWidget QFontComboBox,
-QTabWidget QTextEdit,
+/*QTabWidget QTextEdit,*/
 QTabWidget QSpinBox,
 QTabWidget QDoubleSpinBox {
   border: 0 solid #0A0E14;
@@ -1796,34 +1802,27 @@ QTreeView::item:!selected:hover {
   background-color: #01060E;
 }
 
-/* Transfer list bg color patch : Start */
-QTabWidget QStackedWidget QTreeView { /* Add elm : Patch */
-  alternate-background-color: #01060E; /* Memo: Transfer list each item: alt item only : can't hover et */
+/* Transfer list bg color Patch : Start */
+QTabWidget QStackedWidget QTreeView { /* Memo: Transfer list each item: alt item only : can't hover et */
+  alternate-background-color: #01060E;
 }
 QTabWidget QStackedWidget QStackedWidget QTreeView,
 QTabWidget QStackedWidget QStackedWidget QTreeView:hover,
-QTabWidget QStackedWidget QStackedWidget QTreeView:active { /* Add elm*/
+QTabWidget QStackedWidget QStackedWidget QTreeView:active { /* Transfer list's bottom list  */
   background-color: #0A0E14; /* Memo: bottom list each item bg */
-  alternate-background-color: #01060E; /* Memo: bottom list each item: alta item only : can't hover et */
-}
-QTabWidget QStackedWidget QTreeView:hover {
-  background-color: #48524f; /* transfer list bg : each item  */
-  alternate-background-color: #404933; /* Memo: Transfer list each item: alta item only : can't hover et */
-}
-QTabWidget QStackedWidget QTreeView:active { /* Add elm : Patch : copy from QAbstractItemView */
-  alternate-background-color: #404933; /* Memo: Transfer list each item: alta item only : can't hover et */
+  alternate-background-color: #01060E; /* Memo: bottom list each item: alt item only : can't hover et */
 }
 
-/* RSS outer */
-/*QStackedWidget { background-color: #59C2FF; border : 1px solid #59C2FF; }*/
-/* main : right bottom outer */
-/*QStackedWidget QStackedWidget { background-color: #FFB454; border : 1px solid #FFB454; }*/
-/* main : transfer window */
-/*QStackedWidget QTreeView { background-color: #FFEE99; border : 1px solid #FFEE99; }*/
-/* main : right bottom */
-/*QStackedWidget QStackedWidget QTreeView { background-color: #59C2FF; border : 1px solid #59C2FF; }*/
-/**/
-/*QTabWidget QTabWidget { background-color: #C2D94C; border : 1px solid #C2D94C; }*/
+QTabWidget QStackedWidget QTreeView:hover {
+  background-color: #48524f; /* transfer list bg : each item  */
+  alternate-background-color: #404933; /* Memo: Transfer list each item: alt item only : can't hover et */
+}
+QTabWidget QStackedWidget QTreeView:active { /* Add elm : Patch : copy from QAbstractItemView */
+  alternate-background-color: #404933; /* Memo: Transfer list each item: alt item only : can't hover et */
+}
+QTabWidget QStackedWidget QGroupBox { /* General border */
+  border: 1px solid #273747;
+}
 /* patch : End */
 
 /* QListView
@@ -1868,13 +1867,12 @@ QTableView QLineEdit {
   border: 0;
 }
 
+/* for Test */
 /*
 QTreeView {  background-color: #FF8F40; border: 1px solid #FF8F40; }
 QListView {  background-color: #FFB454; border: 1px solid #FFB454; }
 QTableView {  background-color: #F07178; border: 1px solid #F07178; }
 QColumnView {  background-color: #FFEE99; border: 1px solid #FFEE99; }
-*/
-/*
 QTreeView::item {  background-color: #FF8F40; border: 1px solid #FF8F40; }
 QListView::item {  background-color: #FFB454; border: 1px solid #FFB454; }
 QTableView::item {  background-color: #F07178; border: 1px solid #F07178; }
@@ -1886,25 +1884,56 @@ QListView QMenu::item {  background-color: #FFB454; }
 QTableView QMenu::item {  background-color: #F07178; }
 QColumnView QMenu::item {  background-color: #FFEE99; }
 */
-/* Add End */
 
-QTreeView QMenu::item { /* transfer list : context menu , column context */
-  padding-left: 18px;
+/* Menu Patch */
+QTabWidget QTreeView QWidget::indicator { /* transfer list : context menu > Menu checkbox */
+  width: 12px;
+  height: 12px;
 }
-QTreeView QMenu::item QMenu::item { /* transfer list : context menu - sub menu */
+QTabWidget QTreeView QWidget::indicator:non-exclusive:checked { /* transfer list : context menu > Menu checkbox: checked */
+  image: url(":/qss_icons/rc/checkbox_checked.png"); }
+QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:hover,
+QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:focus,
+QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:pressed {
+  image: url(":/qss_icons/rc/checkbox_checked_focus.png"); }
+
+QTabWidget QStackedWidget QTreeView QMenu::item { /* not reflect : transfer list bottom : context menu , column context menu */
+  padding-left: 18px;
+  /* background-color: #626A73; */
+}
+QTabWidget QStackedWidget QStackedWidget QTreeView QMenu::item { /* transfer list : context menu , column context menu */
   padding-left: 4px;
 }
 
-/* QStyleOptionMenuItem : not reflect */
-QTreeView QMenu::indicator:non-exclusive:checked { /* Menu checkbox: checked */
-  image: url(":/qss_icons/rc/checkbox_checked.png");
+QTabWidget QTreeView QMenu::item QMenu::item, /* transfer list : context menu > sub menu */
+QTabWidget QStackedWidget QListView QMenu::item, /* not reflect:  RSS : middle menu */
+QTabWidget QStackedWidget QStackedWidget QListView QMenu::item /* Excution Log , have menu */
+{
+  padding-left: 4px;
 }
+QTabWidget QStackedWidget QTextBrowser QMenu::item { /* RSS : right , have menu */
+  padding-right: 8px; }
+
+QTabWidget QTreeView QWidget { /* transfer list : context menu > Menu checkbox: checked */
+  color: #B3B1AD; } /* not reflect */
+QTabWidget QTreeView QWidget::item { /* transfer list : context menu > Menu checkbox: checked */
+  color: #B3B1AD; }
+
+/* Add End */
 
 QTableCornerButton::section {
   background-color: #0A0E14;
   border: 1px transparent #273747;
   border-radius: 0px;
 }
+
+/* for Test */
+/*
+QTabWidget { background-color: #F07178; border: 3px solid #F07178; }
+QTextBrowser { background-color: #FFEE99; border: 3px solid #FFEE99; }
+QStackedWidget { background-color: #59C2FF; border: 3px solid #59C2FF; }
+QAbstractItemView { background-color: #C2D94C; border: 3px solid #C2D94C; }
+*/
 
 /* QHeaderView ------------------------------------------------------------
 
