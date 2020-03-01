@@ -8,6 +8,8 @@ Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use T
 ## Q&A
 Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issues/1).
 
+* Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/)
+
 ## Known issue
 *[More info: Issues waiting for release 4.22](https://github.com/maboroshin/qBittorrentDarktheme/issues/2)*<br>
 *[More info2: Unknown issue](https://github.com/maboroshin/qBittorrentDarktheme/issues/3)*
@@ -30,7 +32,7 @@ Rename `src\stylesheet~~.qss`  to `src\stylesheet.qss`, and compile `resources.q
 >I just pack it around for testing the theme support when I was implementing it<br>
 >I'll be mentioning this in the repo just that I'm bit busy with college and stuff
 
-He created the .qbttheme for qBittorrent. So I think it's not copyrightable or means public domain.
+He created the .qbttheme for qBittorrent. So I think it's not copyrightable or means public domain. However, `stylesheet.qss` is similar to QDarkStyleSheet. License inheritance may be necessary.
 
 - [qBittorrent: Icons by Code Charm: MIT License](https://github.com/qbittorrent/qBittorrent/blob/master/src/icons/qbt-theme/README.md).
 - [(Used Icons, stylesheet.qss) QDarkStyleSheet by Colin Duquesnoy et al: MIT and CCBY4.0 License](https://github.com/ColinDuquesnoy/QDarkStyleSheet).
