@@ -1,6 +1,7 @@
 # qBittorrent Dark theme
-
 Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jagannatharjun/qbt-theme)
+
+<img src="qbdark_sample.jpg" width=50%>
 
 ## Usage
 Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use Theme function in Options.
@@ -15,10 +16,9 @@ Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issue
 *[More info2: Unknown issue](https://github.com/maboroshin/qBittorrentDarktheme/issues/3)*
 
 Probably cannot be changed in the theme file.
-- Text color fixed to black. (Supported with background gray) (Wait ver4.2.2)
+- Progress bar color fixed.
 - Link color fixed to blue.
-- Progress bar color fixed. (Wait ver4.2.2)
-- Icon layout, strangeness of check items, In right-click transfer list.
+- strangeness of check items, In right-click transfer list.
 
 ## Compile
 *[More info...](https://github.com/maboroshin/qBittorrentDarktheme/wiki/How-to-compile-.qbtheme)*
