@@ -421,7 +421,7 @@ QMenu::separator {
 
 QMenu::item {
   padding: 4px; /* change */
-  padding-left: 20px; /* Add */
+  padding-left: 4px; /* Add */
   padding-right: 20px; /* Add */
   /* Reserve space for selection border */ /* delete
   border: 1px solid transparent; */
@@ -432,7 +432,7 @@ QMenuBar QMenu::item {
 }
 
 QMenuBar QMenu::item QMenu::item { /* sub menu */
-  padding-left: 20px; /* Add */
+  padding-left: 4px; /* Add */
 }
 
 QMenu::item:selected,
@@ -780,6 +780,8 @@ QToolButton#qt_toolbar_ext_button {
   image: url(":/qss_icons/rc/arrow_right.png");
 }
 
+/* Also QToolButton below */
+
 /* QAbstractSpinBox -------------------------------------------------------
 
 --------------------------------------------------------------------------- */
@@ -957,13 +959,13 @@ QProgressBar:disabled {
 }
 
 QProgressBar::chunk {
-  background-color: #39BAE6; /* change */
-  color: #626A73; /* change */
+  background: #39BAE6; /* Change */
+  color: #0A0E14; /* change */
   border-radius: 4px;
 }
 
 QProgressBar::chunk:disabled {
-  background-color: #59C2FF;
+  background-color: #626A73;
   color: #626A73;
   border-radius: 4px;
 }
@@ -1298,7 +1300,7 @@ QSlider::groove:vertical {
 
 QSlider::add-page:vertical {
   background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
-              stop:0 #B3B1AD , stop: 0.2 #39BAE6 , stop:1 #39BAE6 ); /* Change */
+              stop:0 #626A73 , stop: 0.2 #39BAE6 , stop:1 #39BAE6 ); /* Change */
   border: 1px solid #273747;
   width: 4px;
   margin: 0px;
@@ -1311,7 +1313,7 @@ QSlider::add-page:vertical :disabled {
 
 QSlider::sub-page:horizontal {
   background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
-              stop:0 #B3B1AD , stop: 0.2 #39BAE6 , stop:1 #39BAE6 ); /* Change */
+              stop:0 #626A73 , stop: 0.2 #39BAE6 , stop:1 #39BAE6 ); /* Change */
   border: 1px solid #273747;
   height: 4px;
   margin: 0px;
@@ -1393,10 +1395,6 @@ QTabWidget QLineEdit QToolButton:hover { /* Add elm : assum main window Search b
   background-color: #01060E;
 }
 
-QLineEdit:hover[text=""] {/* Add elm : for Search box Placeholder*/
-  color: #626A73;
-}
-
 QLineEdit:disabled {
   background-color: #0A0E14;
   color: #626A73;
@@ -1408,6 +1406,12 @@ QLineEdit:hover {
   border-bottom: 1px solid #39BAE6; /* change */
   color: #B3B1AD;
 }
+
+/* Add elm : */ /* not reflect
+QLineEdit:hover[text=""], QLineEdit:focus[text=""] {
+  color: #626A73;
+}
+*/
 
 QLineEdit:selected {
   background: #39BAE6;
@@ -1813,13 +1817,8 @@ QTabWidget QStackedWidget QStackedWidget QTreeView:active { /* Transfer list's b
   alternate-background-color: #01060E; /* Memo: bottom list each item: alt item only : can't hover et */
 }
 
-QTabWidget QStackedWidget QTreeView:hover {
-  background-color: #48524f; /* transfer list bg : each item  */
-  alternate-background-color: #404933; /* Memo: Transfer list each item: alt item only : can't hover et */
-}
-QTabWidget QStackedWidget QTreeView:active { /* Add elm : Patch : copy from QAbstractItemView */
-  alternate-background-color: #404933; /* Memo: Transfer list each item: alt item only : can't hover et */
-}
+/* delete bg patch : QTabWidget QStackedWidget QTreeView:hover */
+
 QTabWidget QStackedWidget QGroupBox { /* General border */
   border: 1px solid #273747;
 }
@@ -1886,24 +1885,30 @@ QColumnView QMenu::item {  background-color: #FFEE99; }
 */
 
 /* Menu Patch */
-QTabWidget QTreeView QWidget::indicator { /* transfer list : context menu > Menu checkbox */
+QTabWidget QTreeView QWidget::indicator:non-exclusive:checked { /* transfer list : context menu > Menu checkbox: checked */
   width: 12px;
   height: 12px;
-}
-QTabWidget QTreeView QWidget::indicator:non-exclusive:checked { /* transfer list : context menu > Menu checkbox: checked */
   image: url(":/qss_icons/rc/checkbox_checked.png"); }
 QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:hover,
 QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:focus,
 QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:pressed {
   image: url(":/qss_icons/rc/checkbox_checked_focus.png"); }
+QTabWidget QTreeView QWidget::indicator:non-exclusive:unchecked,
+QTabWidget QTreeView QWidget::indicator:non-exclusive:unchecked:hover,
+QTabWidget QTreeView QWidget::indicator:non-exclusive:unchecked:focus,
+QTabWidget QTreeView QWidget::indicator:non-exclusive:unchecked:pressed {
+  border: 1px solid transparent;
+  background-color: transparent;
+}
 
-QTabWidget QStackedWidget QTreeView QMenu::item { /* not reflect : transfer list bottom : context menu , column context menu */
-  padding-left: 18px;
+QTabWidget QStackedWidget QTreeView QMenu::item { /* transfer list : context menu , column context menu */
+  padding-left: 4px;
   /* background-color: #626A73; */
 }
-QTabWidget QStackedWidget QStackedWidget QTreeView QMenu::item { /* transfer list : context menu , column context menu */
+ /* transfer list bottom : context menu , column context menu */ /* but it have column menu
+QTabWidget QStackedWidget QStackedWidget QTreeView QMenu::item {
   padding-left: 4px;
-}
+} */
 
 QTabWidget QTreeView QMenu::item QMenu::item, /* transfer list : context menu > sub menu */
 QTabWidget QStackedWidget QListView QMenu::item, /* not reflect:  RSS : middle menu */
@@ -1925,6 +1930,48 @@ QTableCornerButton::section {
   background-color: #0A0E14;
   border: 1px transparent #273747;
   border-radius: 0px;
+}
+
+TransferListModel, TransferListWidget, QTreeView {
+  qproperty-unknownStateForeground: #FF8F40;
+  qproperty-forcedDownloadingStateForeground: #FF8F40;
+  qproperty-downloadStateForeground: #FF8F40;
+  qproperty-downloadMetadataStateForeground: #FF8F40;
+  qproperty-allocatingStateForeground: #FF8F40;
+  qproperty-stalledDownloadingStateForeground: #FF8F40;
+  qproperty-forcedUploadingStateForeground: #FF8F40;
+  qproperty-uploadingStateForeground: #FF8F40;
+  qproperty-stalledUploadingStateForeground: #FF8F40;
+  qproperty-checkingResumeDataStateForeground: #FF8F40;
+  qproperty-queuedDownloadingStateForeground: #FF8F40;
+  qproperty-queuedUploadingStateForeground: #FF8F40;
+  qproperty-checkingUploadingStateForeground: #FF8F40;
+  qproperty-checkingDownloadingStateForeground: #FF8F40;
+  qproperty-pausedDownloadingStateForeground: #FF8F40;
+  qproperty-pausedUploadingStateForeground: #FF8F40;
+  qproperty-movingStateForeground: #FF8F40;
+  qproperty-missingFilesStateForeground: #FF8F40;
+  qproperty-errorStateForeground: #FF8F40;
+  
+  unknownStateForeground: #F07178;
+  forcedDownloadingStateForeground: #F07178;
+  downloadStateForeground: #F07178;
+  downloadMetadataStateForeground: #F07178;
+  allocatingStateForeground: #F07178;
+  stalledDownloadingStateForeground: #F07178;
+  forcedUploadingStateForeground: #F07178;
+  uploadingStateForeground: #F07178;
+  stalledUploadingStateForeground: #F07178;
+  checkingResumeDataStateForeground: #F07178;
+  queuedDownloadingStateForeground: #F07178;
+  queuedUploadingStateForeground: #F07178;
+  checkingUploadingStateForeground: #F07178;
+  checkingDownloadingStateForeground: #F07178;
+  pausedDownloadingStateForeground: #F07178;
+  pausedUploadingStateForeground: #F07178;
+  movingStateForeground: #F07178;
+  missingFilesStateForeground: #F07178;
+  errorStateForeground: #F07178;
 }
 
 /* for Test */
