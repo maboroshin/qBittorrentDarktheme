@@ -521,8 +521,8 @@ QAbstractScrollArea {
   border: 0px solid #161821; /*
   border-radius: 4px; */
   padding: 0px;
-  /* fix #159 */
-  min-height: 1.25em;
+  /* fix #159 */ /* Delete : issue #4
+  min-height: 1.25em; */
   /* fix #159 */
   color: #C6C8D1;
 }
@@ -1932,46 +1932,50 @@ QTableCornerButton::section {
   border-radius: 0px;
 }
 
-TransferListModel, TransferListWidget, QTreeView {
-  qproperty-unknownStateForeground: #E2A478;
-  qproperty-forcedDownloadingStateForeground: #E2A478;
-  qproperty-downloadStateForeground: #E2A478;
-  qproperty-downloadMetadataStateForeground: #E2A478;
-  qproperty-allocatingStateForeground: #E2A478;
-  qproperty-stalledDownloadingStateForeground: #E2A478;
-  qproperty-forcedUploadingStateForeground: #E2A478;
-  qproperty-uploadingStateForeground: #E2A478;
-  qproperty-stalledUploadingStateForeground: #E2A478;
-  qproperty-checkingResumeDataStateForeground: #E2A478;
-  qproperty-queuedDownloadingStateForeground: #E2A478;
-  qproperty-queuedUploadingStateForeground: #E2A478;
-  qproperty-checkingUploadingStateForeground: #E2A478;
-  qproperty-checkingDownloadingStateForeground: #E2A478;
-  qproperty-pausedDownloadingStateForeground: #E2A478;
-  qproperty-pausedUploadingStateForeground: #E2A478;
-  qproperty-movingStateForeground: #E2A478;
-  qproperty-missingFilesStateForeground: #E2A478;
-  qproperty-errorStateForeground: #E2A478;
+TransferListModel, TransferListWidget,
+TransferListModel_, TransferListWidget_,
+#TransferListModel, #TransferListWidget,
+#TransferListModel_, #TransferListWidget_, /* can't reflect all */
+QTreeView {
+  qproperty-unknownStateForeground: #89B8C2;
+  qproperty-forcedDownloadingStateForeground: #89B8C2;
+  qproperty-downloadStateForeground: #89B8C2;
+  qproperty-downloadMetadataStateForeground: #89B8C2;
+  qproperty-allocatingStateForeground: #89B8C2;
+  qproperty-stalledDownloadingStateForeground: #89B8C2;
+  qproperty-forcedUploadingStateForeground: #89B8C2;
+  qproperty-uploadingStateForeground: #89B8C2;
+  qproperty-stalledUploadingStateForeground: #89B8C2;
+  qproperty-checkingResumeDataStateForeground: #89B8C2;
+  qproperty-queuedDownloadingStateForeground: #89B8C2;
+  qproperty-queuedUploadingStateForeground: #89B8C2;
+  qproperty-checkingUploadingStateForeground: #89B8C2;
+  qproperty-checkingDownloadingStateForeground: #89B8C2;
+  qproperty-pausedDownloadingStateForeground: #89B8C2;
+  qproperty-pausedUploadingStateForeground: #89B8C2;
+  qproperty-movingStateForeground: #89B8C2;
+  qproperty-missingFilesStateForeground: #89B8C2;
+  qproperty-errorStateForeground: #89B8C2;
   
-  unknownStateForeground: #E27878;
-  forcedDownloadingStateForeground: #E27878;
-  downloadStateForeground: #E27878;
-  downloadMetadataStateForeground: #E27878;
-  allocatingStateForeground: #E27878;
-  stalledDownloadingStateForeground: #E27878;
-  forcedUploadingStateForeground: #E27878;
-  uploadingStateForeground: #E27878;
-  stalledUploadingStateForeground: #E27878;
-  checkingResumeDataStateForeground: #E27878;
-  queuedDownloadingStateForeground: #E27878;
-  queuedUploadingStateForeground: #E27878;
-  checkingUploadingStateForeground: #E27878;
-  checkingDownloadingStateForeground: #E27878;
-  pausedDownloadingStateForeground: #E27878;
-  pausedUploadingStateForeground: #E27878;
-  movingStateForeground: #E27878;
-  missingFilesStateForeground: #E27878;
-  errorStateForeground: #E27878;
+  unknownStateForeground: #B4BE82;
+  forcedDownloadingStateForeground: #B4BE82;
+  downloadStateForeground: #B4BE82;
+  downloadMetadataStateForeground: #B4BE82;
+  allocatingStateForeground: #B4BE82;
+  stalledDownloadingStateForeground: #B4BE82;
+  forcedUploadingStateForeground: #B4BE82;
+  uploadingStateForeground: #B4BE82;
+  stalledUploadingStateForeground: #B4BE82;
+  checkingResumeDataStateForeground: #B4BE82;
+  queuedDownloadingStateForeground: #B4BE82;
+  queuedUploadingStateForeground: #B4BE82;
+  checkingUploadingStateForeground: #B4BE82;
+  checkingDownloadingStateForeground: #B4BE82;
+  pausedDownloadingStateForeground: #B4BE82;
+  pausedUploadingStateForeground: #B4BE82;
+  movingStateForeground: #B4BE82;
+  missingFilesStateForeground: #B4BE82;
+  errorStateForeground: #B4BE82;
 }
 
 /* for Test */
