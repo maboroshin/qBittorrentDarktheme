@@ -406,7 +406,6 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qmenu
 
 --------------------------------------------------------------------------- */
 QMenu {
-  border: 0px solid #161821; /* change : on Menu node */
   color: #C6C8D1;
   margin: 0px;
   padding: 0px;
@@ -1049,8 +1048,7 @@ QTabWidget QPushButton { /* Add elm : RSS tab */
   font-weight: normal;
 }
 QTabWidget QSplitter QPushButton { /* Add elm : for bottom button (Speed et) , Rename, Edit trackers et*/
-  background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
-              stop:0 #1E2132 , stop: 0.4 #3D425B , stop: 0.6 #3D425B , stop:1 #1E2132 ); /* Change */
+  background: #1E2132; /* Change */
   border-radius: 8px;
   border: 1px solid #3D425B;
   margin-left: 2px;
@@ -1901,6 +1899,14 @@ QTabWidget QTreeView QWidget::indicator:non-exclusive:unchecked:pressed {
   background-color: transparent;
 }
 
+QTabWidget QStackedWidget QTreeView QMenu, 
+QTabWidget QStackedWidget QStackedWidget QTreeView QMenu,
+QTabWidget QStackedWidget QListView QMenu,
+QTabWidget QStackedWidget QStackedWidget QListView QMenu
+
+{
+  border: 1px solid #3D425B; /* Add */
+}
 QTabWidget QStackedWidget QTreeView QMenu::item { /* transfer list : context menu , column context menu */
   padding-left: 4px;
   /* background-color: #9A9CA5; */
