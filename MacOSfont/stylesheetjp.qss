@@ -1,0 +1,9 @@
+/*
+  Test font patches for:
+  MacOS
+  with qBittorrent ver4.2.2 (4.2.2 is redesigned transfer list)
+*/
+
+QWidget {
+  font-family: font-family: ".SFNS-Regular", ".HiraKakuInterface-W3”, ".HiraginoSansGBInterface-W3", sans-serif;
+}
