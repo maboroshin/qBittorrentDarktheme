@@ -1,7 +1,10 @@
 # qBittorrent Dark theme
 Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jagannatharjun/qbt-theme)
 
+**ICEBURG.qbtheme**<br>
 <img src="qbdark_sample.jpg" width=50%>
+
+Color Sample : [Solarized](https://github.com/altercation/solarized#solarized) / [ICEBERG](https://github.com/cocopon/iceberg.vim#readme) / [ayu](https://github.com/dempfi/ayu#screenshots)
 
 ## Usage
 Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use Theme function in Options.
