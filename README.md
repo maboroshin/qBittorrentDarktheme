@@ -4,7 +4,8 @@ Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jaganna
 **ICEBURG.qbtheme**<br>
 <img src="qbdark_sample.jpg" width=50%>
 
-Color Sample : [Solarized](https://github.com/altercation/solarized#solarized) / [ICEBERG](https://github.com/cocopon/iceberg.vim#readme) / [ayu](https://github.com/dempfi/ayu#screenshots)
+- [Other qbtheme picture](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-610990126)
+- Color Themes: [Solarized](https://github.com/altercation/solarized#solarized) / [ICEBERG](https://github.com/cocopon/iceberg.vim#readme) / [ayu dark](https://github.com/dempfi/ayu#screenshots)
 
 ## Usage
 Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use Theme function in Options.
