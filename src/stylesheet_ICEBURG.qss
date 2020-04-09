@@ -67,8 +67,8 @@ See Qt documentation:
 
 --------------------------------------------------------------------------- */
 QWidget {
-  background-color: #161821; /* whole outer*/
-  border: 0px solid #84A0C6; /* change #3D425B; not found */
+  background-color: #161821; /* whole outer */
+  border: 0px solid #84A0C6; /* change , not found */
   padding: 0px;
   color: #C6C8D1;
   selection-background-color: #1E2132; /* change */
@@ -83,7 +83,7 @@ QWidget:disabled {
 }
 
 QWidget::item { /* Add elm : transfer list context menu checkItem */
-  color: #C6C8D1; /* not reflect */
+  /* color: #C6C8D1;  */ /* delete for TransferListWidget text color */
 }
 
 QWidget::item:selected {
@@ -108,25 +108,6 @@ QMainWindow::separator { /* Memo: Not found below */
   border: 0px solid #161821;
   spacing: 0px;
   padding: 2px;
-}
-
-QMainWindow::separator:hover {
-  background-color: #1E2132;
-  border: 0px solid #E27878;
-}
-
-QMainWindow::separator:horizontal {
-  width: 5px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  image: url(":/qss_icons/rc/toolbar_separator_vertical.png");
-}
-
-QMainWindow::separator:vertical { /* Memo: Not found */
-  height: 5px;
-  margin-left: 2px;
-  margin-right: 2px;
-  image: url(":/qss_icons/rc/toolbar_separator_horizontal.png");
 }
 
 /* QToolTip ---------------------------------------------------------------
@@ -246,6 +227,7 @@ QGroupBox { /* Option Group */
   border-radius: 4px;
   padding: 4px;
   margin-top: 10px; /* change */
+  color: #C6C8D1; /* add */
 }
 
 QGroupBox::title { /* Option Group Title */
@@ -1070,6 +1052,7 @@ QToolButton {
   border-radius: 4px;
   margin: 0px;
   padding: 2px;
+  color: #C6C8D1; /* add */
   /* The subcontrols below are used only in the MenuButtonPopup mode */
   /* The subcontrol below is used only in the InstantPopup or DelayedPopup mode */
 }
@@ -1528,8 +1511,9 @@ QTabBar::tab:top:selected {
   color: #89B8C2; /* change */
 }
 QTabBar::tab:top:selected,
-/* Moved , delete
-QTabBar::tab:top:!selected */
+/* Moved , delete */
+QTabBar::tab:top:!selected {
+  color: #C6C8D1; /* Add */}
 QTabBar::tab:top:!selected:hover {
   border-color: #89B8C2; /* change */
 }
@@ -1790,7 +1774,6 @@ QTreeView */
 
 QTreeView::item {/* Memo : LeftSidebar non select item (CATEGORIES, TAGS), transfer list bg = each item bg */
   background-color: #161821;
-  color: #C6C8D1;
 }
 QTreeView::item:selected,
 QTreeView::item:selected:active {
@@ -1819,6 +1802,9 @@ QTabWidget QStackedWidget QStackedWidget QTreeView:active { /* Transfer list's b
 
 QTabWidget QStackedWidget QGroupBox { /* General border */
   border: 1px solid #3D425B;
+}
+QTabWidget QStackedWidget QListView { /* patch : RSS middle and right */
+  background-color: #404933;
 }
 /* patch : End */
 
@@ -1938,52 +1924,6 @@ QTableCornerButton::section {
   border-radius: 0px;
 }
 
-TransferListModel, TransferListWidget,
-TransferListModel_, TransferListWidget_,
-#TransferListModel, #TransferListWidget,
-#TransferListModel_, #TransferListWidget_, /* can't reflect all */
-QTreeView {
-  qproperty-unknownStateForeground: #89B8C2;
-  qproperty-forcedDownloadingStateForeground: #89B8C2;
-  qproperty-downloadStateForeground: #89B8C2;
-  qproperty-downloadMetadataStateForeground: #89B8C2;
-  qproperty-allocatingStateForeground: #89B8C2;
-  qproperty-stalledDownloadingStateForeground: #89B8C2;
-  qproperty-forcedUploadingStateForeground: #89B8C2;
-  qproperty-uploadingStateForeground: #89B8C2;
-  qproperty-stalledUploadingStateForeground: #89B8C2;
-  qproperty-checkingResumeDataStateForeground: #89B8C2;
-  qproperty-queuedDownloadingStateForeground: #89B8C2;
-  qproperty-queuedUploadingStateForeground: #89B8C2;
-  qproperty-checkingUploadingStateForeground: #89B8C2;
-  qproperty-checkingDownloadingStateForeground: #89B8C2;
-  qproperty-pausedDownloadingStateForeground: #89B8C2;
-  qproperty-pausedUploadingStateForeground: #89B8C2;
-  qproperty-movingStateForeground: #89B8C2;
-  qproperty-missingFilesStateForeground: #89B8C2;
-  qproperty-errorStateForeground: #89B8C2;
-  
-  unknownStateForeground: #B4BE82;
-  forcedDownloadingStateForeground: #B4BE82;
-  downloadStateForeground: #B4BE82;
-  downloadMetadataStateForeground: #B4BE82;
-  allocatingStateForeground: #B4BE82;
-  stalledDownloadingStateForeground: #B4BE82;
-  forcedUploadingStateForeground: #B4BE82;
-  uploadingStateForeground: #B4BE82;
-  stalledUploadingStateForeground: #B4BE82;
-  checkingResumeDataStateForeground: #B4BE82;
-  queuedDownloadingStateForeground: #B4BE82;
-  queuedUploadingStateForeground: #B4BE82;
-  checkingUploadingStateForeground: #B4BE82;
-  checkingDownloadingStateForeground: #B4BE82;
-  pausedDownloadingStateForeground: #B4BE82;
-  pausedUploadingStateForeground: #B4BE82;
-  movingStateForeground: #B4BE82;
-  missingFilesStateForeground: #B4BE82;
-  errorStateForeground: #B4BE82;
-}
-
 /* for Test */
 /*
 QTabWidget { background-color: #E27878; border: 3px solid #E27878; }
@@ -2072,6 +2012,12 @@ QHeaderView::up-arrow {
   image: url(":/qss_icons/rc/arrow_up.png"); /* used */
 }
 
+
+/* QDialog --------------------------------------------------------------
+--------------------------------------------------------------------------- */
+QDialog { /* for Gnome about Dialog : background */
+  background-color: #161821;
+}
 
 /* QToolBox --------------------------------------------------------------
 
@@ -2246,3 +2192,26 @@ PlotWidget {
   /* Fix cut labels in plots #134 */
   padding: 0px;
 }
+
+TransferListWidget {
+  qproperty-downloadingStateForeground: #B4BE82;
+  qproperty-forcedDownloadingStateForeground: #B4BE82;
+  qproperty-downloadingMetadataStateForeground: #B4BE82;
+  qproperty-allocatingStateForeground: #9A9CA5;
+  qproperty-stalledDownloadingStateForeground: #9A9CA5;
+  qproperty-stalledUploadingStateForeground: #9A9CA5;
+  qproperty-uploadingStateForeground: #89B8C2;
+  qproperty-forcedUploadingStateForeground: #89B8C2;
+  qproperty-pausedDownloadingStateForeground: #E2A478;
+  qproperty-pausedUploadingStateForeground: #89B8C2;
+  qproperty-errorStateForeground: #E27878;
+  qproperty-missingFilesStateForeground: #E27878;
+  qproperty-queuedDownloadingStateForeground: #B4BE82;
+  qproperty-queuedUploadingStateForeground: #B4BE82;
+  qproperty-checkingDownloadingStateForeground: #B4BE82;
+  qproperty-checkingUploadingStateForeground: #B4BE82;
+  qproperty-checkingResumeDataStateForeground: #B4BE82;
+  qproperty-movingStateForeground: #B4BE82;
+  qproperty-unknownStateForeground: #E27878;
+}
+
