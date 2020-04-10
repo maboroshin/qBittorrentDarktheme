@@ -1510,10 +1510,10 @@ QTabBar::tab:top { /* below top: actualy used */
 QTabBar::tab:top:selected {
   color: #39BAE6; /* change */
 }
-QTabBar::tab:top:selected,
-/* Moved , delete */
 QTabBar::tab:top:!selected {
-  color: #B3B1AD; /* Add */}
+  color: #B3B1AD; /* Add */
+}
+QTabBar::tab:top:selected,
 QTabBar::tab:top:!selected:hover {
   border-color: #39BAE6; /* change */
 }
@@ -1806,6 +1806,9 @@ QTabWidget QStackedWidget QGroupBox { /* General border */
 QTabWidget QStackedWidget QListView { /* patch : RSS middle and right */
   background-color: #404933;
 }
+QTabWidget QStackedWidget QStackedWidget QListView { /* patch : above RSS patch fix : to HTTP source tab*/
+  background-color: #0A0E14;
+}
 /* patch : End */
 
 /* QListView
@@ -1826,7 +1829,8 @@ QTabWidget QListView QLabel:hover { /* patch : Excution Log */
 QListView::item:selected,
 QListView::item:selected:active {
   color: #39BAE6;
-  background-color: #01060E;
+  font-weight: bold ;
+  background-color: #0A0E14;
 }
 QListView::item:selected:hover,
 QListView::item:!selected:hover {
@@ -2015,7 +2019,7 @@ QHeaderView::up-arrow {
 
 /* QDialog --------------------------------------------------------------
 --------------------------------------------------------------------------- */
-QDialog { /* for Gnome about Dialog : background */
+QDialog { /* for Gnome about Dialog : but can't reflect in Gnome */
   background-color: #0A0E14;
 }
 
