@@ -1,7 +1,7 @@
 # qBittorrent Dark theme
 Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jagannatharjun/qbt-theme)
 
-**ICEBURG.qbtheme**<br>
+**ICEBERG.qbtheme**<br>
 <img src="qbdark_sample.jpg" width=50%>
 
 - [Other qbtheme pictures](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-610990126)

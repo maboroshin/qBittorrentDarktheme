@@ -1814,9 +1814,9 @@ QTabWidget QStackedWidget QStackedWidget QListView { /* patch : above RSS patch 
 /* QListView
  Memo: RSS: torrents, download rules, Execution Log, Options LeftSidebar non item BG */
 QListView::item { /* Memo: Left Sidebar : each nonactive item (STATUS, TRACKERS) : normal item, Options LeftSidebar item BG */
-  padding: 0; /* Add */
-  margin 0; /* Add */
-  height:20px;
+  /*padding: 0; */ /* Add */
+  /* margin 0; */ /* Add */
+  /* height:20px; */ /* Delete: reason : These narrowed height on 2160p screen */
 }
 QTabWidget QListView QLabel { /* patch : Excution Log */
   background-color: #48524f; /* Excution Log item bg*/
