@@ -68,7 +68,7 @@ See Qt documentation:
 --------------------------------------------------------------------------- */
 QWidget {
   background-color: #131418; /* whole outer */
-  border: 0px solid #B48891; /* change , not found */
+  border: 0px solid #97B7C0; /* change , not found */
   padding: 0px;
   color: #BEC7BA;
   selection-background-color: #172418; /* change */
@@ -1818,11 +1818,11 @@ QListView::item { /* Memo: Left Sidebar : each nonactive item (STATUS, TRACKERS)
   /* margin 0; */ /* Add */
   /* height:20px; */ /* Delete: reason : These narrowed height on 2160p screen */
 }
-QTabWidget QListView QLabel { /* patch : Excution Log */
+QTabWidget QTabWidget QListView::item { /* patch : Excution Log */
   background-color: #48524f; /* Excution Log item bg*/
   padding: 0px; /* change for : Excution Log's Line height */
 }
-QTabWidget QListView QLabel:hover { /* patch : Excution Log */
+QTabWidget QTabWidget QListView QListView::item:hover { /* patch : Excution Log */
   background-color: #404933;
 }
 
@@ -1859,17 +1859,17 @@ QTableView QLineEdit {
 QTreeView {  background-color: #BBA944; border: 1px solid #BBA944; }
 QListView {  background-color: #BFBD33; border: 1px solid #BFBD33; }
 QTableView {  background-color: #C69492; border: 1px solid #C69492; }
-QColumnView {  background-color: #BBC18C; border: 1px solid #BBC18C; }
+QColumnView {  background-color: #A08EAE; border: 1px solid #A08EAE; }
 QTreeView::item {  background-color: #BBA944; border: 1px solid #BBA944; }
 QListView::item {  background-color: #BFBD33; border: 1px solid #BFBD33; }
 QTableView::item {  background-color: #C69492; border: 1px solid #C69492; }
-QColumnView::item {  background-color: #BBC18C; border: 1px solid #BBC18C; }
+QColumnView::item {  background-color: #A08EAE; border: 1px solid #A08EAE; }
 */
 /*
 QTreeView QMenu::item {  background-color: #BBA944; } 
 QListView QMenu::item {  background-color: #BFBD33; }
 QTableView QMenu::item {  background-color: #C69492; }
-QColumnView QMenu::item {  background-color: #BBC18C; }
+QColumnView QMenu::item {  background-color: #A08EAE; }
 */
 
 /* Menu Patch */
@@ -1931,8 +1931,8 @@ QTableCornerButton::section {
 /* for Test */
 /*
 QTabWidget { background-color: #C69492; border: 3px solid #C69492; }
-QTextBrowser { background-color: #BBC18C; border: 3px solid #BBC18C; }
-QStackedWidget { background-color: #B48891; border: 3px solid #B48891; }
+QTextBrowser { background-color: #A08EAE; border: 3px solid #A08EAE; }
+QStackedWidget { background-color: #97B7C0; border: 3px solid #97B7C0; }
 QAbstractItemView { background-color: #A5B352; border: 3px solid #A5B352; }
 */
 
