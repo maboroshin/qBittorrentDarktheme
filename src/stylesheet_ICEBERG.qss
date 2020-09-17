@@ -1818,11 +1818,11 @@ QListView::item { /* Memo: Left Sidebar : each nonactive item (STATUS, TRACKERS)
   /* margin 0; */ /* Add */
   /* height:20px; */ /* Delete: reason : These narrowed height on 2160p screen */
 }
-QTabWidget QListView QLabel { /* patch : Excution Log */
+QTabWidget QTabWidget QListView::item { /* patch : Excution Log */
   background-color: #48524f; /* Excution Log item bg*/
   padding: 0px; /* change for : Excution Log's Line height */
 }
-QTabWidget QListView QLabel:hover { /* patch : Excution Log */
+QTabWidget QTabWidget QListView QListView::item:hover { /* patch : Excution Log */
   background-color: #404933;
 }
 
