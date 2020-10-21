@@ -1,0 +1,22 @@
+TransferListWidget 
+{
+  qproperty-downloadingStateForeground: #A5B352;
+  qproperty-forcedDownloadingStateForeground: #A5B352;
+  qproperty-downloadingMetadataStateForeground: #A5B352;
+  qproperty-allocatingStateForeground: #4A956D;
+  qproperty-stalledDownloadingStateForeground: #4A956D;
+  qproperty-stalledUploadingStateForeground: #4A956D;
+  qproperty-uploadingStateForeground: #90B998;
+  qproperty-forcedUploadingStateForeground: #90B998;
+  qproperty-pausedDownloadingStateForeground: #BBA944;
+  qproperty-pausedUploadingStateForeground: #90B998;
+  qproperty-errorStateForeground: #C69492;
+  qproperty-missingFilesStateForeground: #C69492;
+  qproperty-queuedDownloadingStateForeground: #A5B352;
+  qproperty-queuedUploadingStateForeground: #A5B352;
+  qproperty-checkingDownloadingStateForeground: #A5B352;
+  qproperty-checkingUploadingStateForeground: #A5B352;
+  qproperty-checkingResumeDataStateForeground: #A5B352;
+  qproperty-movingStateForeground: #A5B352;
+  qproperty-unknownStateForeground: #C69492;
+}
