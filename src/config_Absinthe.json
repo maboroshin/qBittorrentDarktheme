@@ -1,22 +1,23 @@
-TransferListWidget 
 {
-  qproperty-downloadingStateForeground: #A5B352;
-  qproperty-forcedDownloadingStateForeground: #A5B352;
-  qproperty-downloadingMetadataStateForeground: #A5B352;
-  qproperty-allocatingStateForeground: #4A956D;
-  qproperty-stalledDownloadingStateForeground: #4A956D;
-  qproperty-stalledUploadingStateForeground: #4A956D;
-  qproperty-uploadingStateForeground: #90B998;
-  qproperty-forcedUploadingStateForeground: #90B998;
-  qproperty-pausedDownloadingStateForeground: #BBA944;
-  qproperty-pausedUploadingStateForeground: #90B998;
-  qproperty-errorStateForeground: #C69492;
-  qproperty-missingFilesStateForeground: #C69492;
-  qproperty-queuedDownloadingStateForeground: #A5B352;
-  qproperty-queuedUploadingStateForeground: #A5B352;
-  qproperty-checkingDownloadingStateForeground: #A5B352;
-  qproperty-checkingUploadingStateForeground: #A5B352;
-  qproperty-checkingResumeDataStateForeground: #A5B352;
-  qproperty-movingStateForeground: #A5B352;
-  qproperty-unknownStateForeground: #C69492;
+  "colors": {
+    "TransferList.Downloading": "#A5B352",
+    "TransferList.ForcedDownloading": "#A5B352",
+    "TransferList.DownloadingMetadata": "#A5B352",
+    "TransferList.Allocating": "#4A956D",
+    "TransferList.StalledDownloading": "#4A956D",
+    "TransferList.StalledUploading": "#4A956D",
+    "TransferList.Uploading": "#90B998",
+    "TransferList.ForcedUploading": "#90B998",
+    "TransferList.PausedDownloading": "#BBA944",
+    "TransferList.PausedUploading": "#90B99",
+    "TransferList.Error": "#C69492",
+    "TransferList.MissingFiles": "#C69492",
+    "TransferList.QueuedDownloading": "#A5B352",
+    "TransferList.QueuedUploading": "#A5B352",
+    "TransferList.CheckingDownloading": "#A5B352",
+    "TransferList.CheckingUploading": "#A5B352",
+    "TransferList.CheckingResumeData": "#A5B352",
+    "TransferList.Moving": "#A5B352",
+    "TransferList.Unknown": "#C69492"
+  }
 }
