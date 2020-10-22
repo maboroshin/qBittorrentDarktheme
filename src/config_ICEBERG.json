@@ -1,0 +1,30 @@
+{
+  "colors": {
+	"Log.Time": "#39BAE6",
+	"Log.Normal": "#B3B1AD",
+    "Log.Info": "#039BE5",
+    "Log.Warning": "#626A73",
+    "Log.Critical": "#F07178",
+	"Log.BannedPeer": "#F07178",
+	
+    "TransferList.Downloading": "#B4BE82",
+    "TransferList.ForcedDownloading": "#B4BE82",
+    "TransferList.DownloadingMetadata": "#B4BE82",
+    "TransferList.Allocating": "#9A9CA5",
+    "TransferList.StalledDownloading": "#9A9CA5",
+    "TransferList.StalledUploading": "#9A9CA5",
+    "TransferList.Uploading": "#89B8C2",
+    "TransferList.ForcedUploading": "#89B8C2",
+    "TransferList.PausedDownloading": "#E2A478",
+    "TransferList.PausedUploading": "#89B8C2",
+    "TransferList.Error": "#E27878",
+    "TransferList.MissingFiles": "#E27878",
+    "TransferList.QueuedDownloading": "#B4BE82",
+    "TransferList.QueuedUploading": "#B4BE82",
+    "TransferList.CheckingDownloading": "#B4BE82",
+    "TransferList.CheckingUploading": "#B4BE82",
+    "TransferList.CheckingResumeData": "#B4BE82",
+    "TransferList.Moving": "#B4BE82",
+    "TransferList.Unknown": "#E27878"
+  }
+}

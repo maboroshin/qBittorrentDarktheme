@@ -1,0 +1,329 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+		<file alias='stylesheet.qss'>stylesheet_ICEBERG.qss</file>
+		<file alias='config.json'>config_ICEBERG.json</file>
+		<file>qss_icons/rc/arrow_down.png</file>
+		<file>qss_icons/rc/arrow_down@2x.png</file>
+		<file>qss_icons/rc/arrow_down_disabled.png</file>
+		<file>qss_icons/rc/arrow_down_disabled@2x.png</file>
+		<file>qss_icons/rc/arrow_down_focus.png</file>
+		<file>qss_icons/rc/arrow_down_focus@2x.png</file>
+		<file>qss_icons/rc/arrow_down_pressed.png</file>
+		<file>qss_icons/rc/arrow_down_pressed@2x.png</file>
+		<file>qss_icons/rc/arrow_left.png</file>
+		<file>qss_icons/rc/arrow_left@2x.png</file>
+		<file>qss_icons/rc/arrow_left_disabled.png</file>
+		<file>qss_icons/rc/arrow_left_disabled@2x.png</file>
+		<file>qss_icons/rc/arrow_left_focus.png</file>
+		<file>qss_icons/rc/arrow_left_focus@2x.png</file>
+		<file>qss_icons/rc/arrow_left_pressed.png</file>
+		<file>qss_icons/rc/arrow_left_pressed@2x.png</file>
+		<file>qss_icons/rc/arrow_right.png</file>
+		<file>qss_icons/rc/arrow_right@2x.png</file>
+		<file>qss_icons/rc/arrow_right_disabled.png</file>
+		<file>qss_icons/rc/arrow_right_disabled@2x.png</file>
+		<file>qss_icons/rc/arrow_right_focus.png</file>
+		<file>qss_icons/rc/arrow_right_focus@2x.png</file>
+		<file>qss_icons/rc/arrow_right_pressed.png</file>
+		<file>qss_icons/rc/arrow_right_pressed@2x.png</file>
+		<file>qss_icons/rc/arrow_up.png</file>
+		<file>qss_icons/rc/arrow_up@2x.png</file>
+		<file>qss_icons/rc/arrow_up_disabled.png</file>
+		<file>qss_icons/rc/arrow_up_disabled@2x.png</file>
+		<file>qss_icons/rc/arrow_up_focus.png</file>
+		<file>qss_icons/rc/arrow_up_focus@2x.png</file>
+		<file>qss_icons/rc/arrow_up_pressed.png</file>
+		<file>qss_icons/rc/arrow_up_pressed@2x.png</file>
+		<file>qss_icons/rc/base_icon.png</file>
+		<file>qss_icons/rc/base_icon@2x.png</file>
+		<file>qss_icons/rc/base_icon_disabled.png</file>
+		<file>qss_icons/rc/base_icon_disabled@2x.png</file>
+		<file>qss_icons/rc/base_icon_focus.png</file>
+		<file>qss_icons/rc/base_icon_focus@2x.png</file>
+		<file>qss_icons/rc/base_icon_pressed.png</file>
+		<file>qss_icons/rc/base_icon_pressed@2x.png</file>
+		<file>qss_icons/rc/branch_closed.png</file>
+		<file>qss_icons/rc/branch_closed@2x.png</file>
+		<file>qss_icons/rc/branch_closed_disabled.png</file>
+		<file>qss_icons/rc/branch_closed_disabled@2x.png</file>
+		<file>qss_icons/rc/branch_closed_focus.png</file>
+		<file>qss_icons/rc/branch_closed_focus@2x.png</file>
+		<file>qss_icons/rc/branch_closed_pressed.png</file>
+		<file>qss_icons/rc/branch_closed_pressed@2x.png</file>
+		<file>qss_icons/rc/branch_end.png</file>
+		<file>qss_icons/rc/branch_end@2x.png</file>
+		<file>qss_icons/rc/branch_end_disabled.png</file>
+		<file>qss_icons/rc/branch_end_disabled@2x.png</file>
+		<file>qss_icons/rc/branch_end_focus.png</file>
+		<file>qss_icons/rc/branch_end_focus@2x.png</file>
+		<file>qss_icons/rc/branch_end_pressed.png</file>
+		<file>qss_icons/rc/branch_end_pressed@2x.png</file>
+		<file>qss_icons/rc/branch_line.png</file>
+		<file>qss_icons/rc/branch_line@2x.png</file>
+		<file>qss_icons/rc/branch_line_disabled.png</file>
+		<file>qss_icons/rc/branch_line_disabled@2x.png</file>
+		<file>qss_icons/rc/branch_line_focus.png</file>
+		<file>qss_icons/rc/branch_line_focus@2x.png</file>
+		<file>qss_icons/rc/branch_line_pressed.png</file>
+		<file>qss_icons/rc/branch_line_pressed@2x.png</file>
+		<file>qss_icons/rc/branch_more.png</file>
+		<file>qss_icons/rc/branch_more@2x.png</file>
+		<file>qss_icons/rc/branch_more_disabled.png</file>
+		<file>qss_icons/rc/branch_more_disabled@2x.png</file>
+		<file>qss_icons/rc/branch_more_focus.png</file>
+		<file>qss_icons/rc/branch_more_focus@2x.png</file>
+		<file>qss_icons/rc/branch_more_pressed.png</file>
+		<file>qss_icons/rc/branch_more_pressed@2x.png</file>
+		<file>qss_icons/rc/branch_open.png</file>
+		<file>qss_icons/rc/branch_open@2x.png</file>
+		<file>qss_icons/rc/branch_open_disabled.png</file>
+		<file>qss_icons/rc/branch_open_disabled@2x.png</file>
+		<file>qss_icons/rc/branch_open_focus.png</file>
+		<file>qss_icons/rc/branch_open_focus@2x.png</file>
+		<file>qss_icons/rc/branch_open_pressed.png</file>
+		<file>qss_icons/rc/branch_open_pressed@2x.png</file>
+		<file>qss_icons/rc/checkbox_checked.png</file>
+		<file>qss_icons/rc/checkbox_checked@2x.png</file>
+		<file>qss_icons/rc/checkbox_checked_disabled.png</file>
+		<file>qss_icons/rc/checkbox_checked_disabled@2x.png</file>
+		<file>qss_icons/rc/checkbox_checked_focus.png</file>
+		<file>qss_icons/rc/checkbox_checked_focus@2x.png</file>
+		<file>qss_icons/rc/checkbox_checked_pressed.png</file>
+		<file>qss_icons/rc/checkbox_checked_pressed@2x.png</file>
+		<file>qss_icons/rc/checkbox_indeterminate.png</file>
+		<file>qss_icons/rc/checkbox_indeterminate@2x.png</file>
+		<file>qss_icons/rc/checkbox_indeterminate_disabled.png</file>
+		<file>qss_icons/rc/checkbox_indeterminate_disabled@2x.png</file>
+		<file>qss_icons/rc/checkbox_indeterminate_focus.png</file>
+		<file>qss_icons/rc/checkbox_indeterminate_focus@2x.png</file>
+		<file>qss_icons/rc/checkbox_indeterminate_pressed.png</file>
+		<file>qss_icons/rc/checkbox_indeterminate_pressed@2x.png</file>
+		<file>qss_icons/rc/checkbox_unchecked.png</file>
+		<file>qss_icons/rc/checkbox_unchecked@2x.png</file>
+		<file>qss_icons/rc/checkbox_unchecked_disabled.png</file>
+		<file>qss_icons/rc/checkbox_unchecked_disabled@2x.png</file>
+		<file>qss_icons/rc/checkbox_unchecked_focus.png</file>
+		<file>qss_icons/rc/checkbox_unchecked_focus@2x.png</file>
+		<file>qss_icons/rc/checkbox_unchecked_pressed.png</file>
+		<file>qss_icons/rc/checkbox_unchecked_pressed@2x.png</file>
+		<file>qss_icons/rc/line_horizontal.png</file>
+		<file>qss_icons/rc/line_horizontal@2x.png</file>
+		<file>qss_icons/rc/line_horizontal_disabled.png</file>
+		<file>qss_icons/rc/line_horizontal_disabled@2x.png</file>
+		<file>qss_icons/rc/line_horizontal_focus.png</file>
+		<file>qss_icons/rc/line_horizontal_focus@2x.png</file>
+		<file>qss_icons/rc/line_horizontal_pressed.png</file>
+		<file>qss_icons/rc/line_horizontal_pressed@2x.png</file>
+		<file>qss_icons/rc/line_vertical.png</file>
+		<file>qss_icons/rc/line_vertical@2x.png</file>
+		<file>qss_icons/rc/line_vertical_disabled.png</file>
+		<file>qss_icons/rc/line_vertical_disabled@2x.png</file>
+		<file>qss_icons/rc/line_vertical_focus.png</file>
+		<file>qss_icons/rc/line_vertical_focus@2x.png</file>
+		<file>qss_icons/rc/line_vertical_pressed.png</file>
+		<file>qss_icons/rc/line_vertical_pressed@2x.png</file>
+		<file>qss_icons/rc/radio_checked.png</file>
+		<file>qss_icons/rc/radio_checked@2x.png</file>
+		<file>qss_icons/rc/radio_checked_disabled.png</file>
+		<file>qss_icons/rc/radio_checked_disabled@2x.png</file>
+		<file>qss_icons/rc/radio_checked_focus.png</file>
+		<file>qss_icons/rc/radio_checked_focus@2x.png</file>
+		<file>qss_icons/rc/radio_checked_pressed.png</file>
+		<file>qss_icons/rc/radio_checked_pressed@2x.png</file>
+		<file>qss_icons/rc/radio_unchecked.png</file>
+		<file>qss_icons/rc/radio_unchecked@2x.png</file>
+		<file>qss_icons/rc/radio_unchecked_disabled.png</file>
+		<file>qss_icons/rc/radio_unchecked_disabled@2x.png</file>
+		<file>qss_icons/rc/radio_unchecked_focus.png</file>
+		<file>qss_icons/rc/radio_unchecked_focus@2x.png</file>
+		<file>qss_icons/rc/radio_unchecked_pressed.png</file>
+		<file>qss_icons/rc/radio_unchecked_pressed@2x.png</file>
+		<file>qss_icons/rc/toolbar_move_horizontal.png</file>
+		<file>qss_icons/rc/toolbar_move_horizontal@2x.png</file>
+		<file>qss_icons/rc/toolbar_move_horizontal_disabled.png</file>
+		<file>qss_icons/rc/toolbar_move_horizontal_disabled@2x.png</file>
+		<file>qss_icons/rc/toolbar_move_horizontal_focus.png</file>
+		<file>qss_icons/rc/toolbar_move_horizontal_focus@2x.png</file>
+		<file>qss_icons/rc/toolbar_move_horizontal_pressed.png</file>
+		<file>qss_icons/rc/toolbar_move_horizontal_pressed@2x.png</file>
+		<file>qss_icons/rc/toolbar_move_vertical.png</file>
+		<file>qss_icons/rc/toolbar_move_vertical@2x.png</file>
+		<file>qss_icons/rc/toolbar_move_vertical_disabled.png</file>
+		<file>qss_icons/rc/toolbar_move_vertical_disabled@2x.png</file>
+		<file>qss_icons/rc/toolbar_move_vertical_focus.png</file>
+		<file>qss_icons/rc/toolbar_move_vertical_focus@2x.png</file>
+		<file>qss_icons/rc/toolbar_move_vertical_pressed.png</file>
+		<file>qss_icons/rc/toolbar_move_vertical_pressed@2x.png</file>
+		<file>qss_icons/rc/toolbar_separator_horizontal.png</file>
+		<file>qss_icons/rc/toolbar_separator_horizontal@2x.png</file>
+		<file>qss_icons/rc/toolbar_separator_horizontal_disabled.png</file>
+		<file>qss_icons/rc/toolbar_separator_horizontal_disabled@2x.png</file>
+		<file>qss_icons/rc/toolbar_separator_horizontal_focus.png</file>
+		<file>qss_icons/rc/toolbar_separator_horizontal_focus@2x.png</file>
+		<file>qss_icons/rc/toolbar_separator_horizontal_pressed.png</file>
+		<file>qss_icons/rc/toolbar_separator_horizontal_pressed@2x.png</file>
+		<file>qss_icons/rc/toolbar_separator_vertical.png</file>
+		<file>qss_icons/rc/toolbar_separator_vertical@2x.png</file>
+		<file>qss_icons/rc/toolbar_separator_vertical_disabled.png</file>
+		<file>qss_icons/rc/toolbar_separator_vertical_disabled@2x.png</file>
+		<file>qss_icons/rc/toolbar_separator_vertical_focus.png</file>
+		<file>qss_icons/rc/toolbar_separator_vertical_focus@2x.png</file>
+		<file>qss_icons/rc/toolbar_separator_vertical_pressed.png</file>
+		<file>qss_icons/rc/toolbar_separator_vertical_pressed@2x.png</file>
+		<file>qss_icons/rc/transparent.png</file>
+		<file>qss_icons/rc/transparent@2x.png</file>
+		<file>qss_icons/rc/transparent_disabled.png</file>
+		<file>qss_icons/rc/transparent_disabled@2x.png</file>
+		<file>qss_icons/rc/transparent_focus.png</file>
+		<file>qss_icons/rc/transparent_focus@2x.png</file>
+		<file>qss_icons/rc/transparent_pressed.png</file>
+		<file>qss_icons/rc/transparent_pressed@2x.png</file>
+		<file>qss_icons/rc/window_close.png</file>
+		<file>qss_icons/rc/window_close@2x.png</file>
+		<file>qss_icons/rc/window_close_disabled.png</file>
+		<file>qss_icons/rc/window_close_disabled@2x.png</file>
+		<file>qss_icons/rc/window_close_focus.png</file>
+		<file>qss_icons/rc/window_close_focus@2x.png</file>
+		<file>qss_icons/rc/window_close_pressed.png</file>
+		<file>qss_icons/rc/window_close_pressed@2x.png</file>
+		<file>qss_icons/rc/window_grip.png</file>
+		<file>qss_icons/rc/window_grip@2x.png</file>
+		<file>qss_icons/rc/window_grip_disabled.png</file>
+		<file>qss_icons/rc/window_grip_disabled@2x.png</file>
+		<file>qss_icons/rc/window_grip_focus.png</file>
+		<file>qss_icons/rc/window_grip_focus@2x.png</file>
+		<file>qss_icons/rc/window_grip_pressed.png</file>
+		<file>qss_icons/rc/window_grip_pressed@2x.png</file>
+		<file>qss_icons/rc/window_minimize.png</file>
+		<file>qss_icons/rc/window_minimize@2x.png</file>
+		<file>qss_icons/rc/window_minimize_disabled.png</file>
+		<file>qss_icons/rc/window_minimize_disabled@2x.png</file>
+		<file>qss_icons/rc/window_minimize_focus.png</file>
+		<file>qss_icons/rc/window_minimize_focus@2x.png</file>
+		<file>qss_icons/rc/window_minimize_pressed.png</file>
+		<file>qss_icons/rc/window_minimize_pressed@2x.png</file>
+		<file>qss_icons/rc/window_undock.png</file>
+		<file>qss_icons/rc/window_undock@2x.png</file>
+		<file>qss_icons/rc/window_undock_disabled.png</file>
+		<file>qss_icons/rc/window_undock_disabled@2x.png</file>
+		<file>qss_icons/rc/window_undock_focus.png</file>
+		<file>qss_icons/rc/window_undock_focus@2x.png</file>
+		<file>qss_icons/rc/window_undock_pressed.png</file>
+		<file>qss_icons/rc/window_undock_pressed@2x.png</file>
+		<file alias='icons/application-exit.svg'>icons/qbt-theme/application-exit.svg</file>
+		<file alias='icons/application-rss+xml.svg'>icons/qbt-theme/application-rss+xml.svg</file>
+		<file alias='icons/application-x-mswinurl.svg'>icons/qbt-theme/application-x-mswinurl.svg</file>
+		<file alias='icons/checked.svg'>icons/qbt-theme/checked.svg</file>
+		<file alias='icons/checking.svg'>icons/qbt-theme/checking.svg</file>
+		<file alias='icons/collapse.svg'>icons/qbt-theme/collapse.svg</file>
+		<file alias='icons/completed.svg'>icons/qbt-theme/completed.svg</file>
+		<file alias='icons/configure.svg'>icons/qbt-theme/configure.svg</file>
+		<file alias='icons/connected.svg'>icons/qbt-theme/connected.svg</file>
+		<file alias='icons/dialog-cancel.svg'>icons/qbt-theme/dialog-cancel.svg</file>
+		<file alias='icons/dialog-information.svg'>icons/qbt-theme/dialog-information.svg</file>
+		<file alias='icons/dialog-warning.svg'>icons/qbt-theme/dialog-warning.svg</file>
+		<file alias='icons/disconnected.svg'>icons/qbt-theme/disconnected.svg</file>
+		<file alias='icons/document-edit-verify.svg'>icons/qbt-theme/document-edit-verify.svg</file>
+		<file alias='icons/document-edit.svg'>icons/qbt-theme/document-edit.svg</file>
+		<file alias='icons/document-encrypt.svg'>icons/qbt-theme/document-encrypt.svg</file>
+		<file alias='icons/document-import.svg'>icons/qbt-theme/document-import.svg</file>
+		<file alias='icons/document-new.svg'>icons/qbt-theme/document-new.svg</file>
+		<file alias='icons/document-properties.svg'>icons/qbt-theme/document-properties.svg</file>
+		<file alias='icons/document-save.svg'>icons/qbt-theme/document-save.svg</file>
+		<file alias='icons/download.svg'>icons/qbt-theme/download.svg</file>
+		<file alias='icons/downloading.svg'>icons/qbt-theme/downloading.svg</file>
+		<file alias='icons/edit-clear-history.svg'>icons/qbt-theme/edit-clear-history.svg</file>
+		<file alias='icons/edit-clear.svg'>icons/qbt-theme/edit-clear.svg</file>
+		<file alias='icons/edit-copy.svg'>icons/qbt-theme/edit-copy.svg</file>
+		<file alias='icons/edit-cut.svg'>icons/qbt-theme/edit-cut.svg</file>
+		<file alias='icons/edit-delete.svg'>icons/qbt-theme/edit-delete.svg</file>
+		<file alias='icons/edit-find-user.svg'>icons/qbt-theme/edit-find-user.svg</file>
+		<file alias='icons/edit-find.svg'>icons/qbt-theme/edit-find.svg</file>
+		<file alias='icons/edit-paste.svg'>icons/qbt-theme/edit-paste.svg</file>
+		<file alias='icons/edit-rename.svg'>icons/qbt-theme/edit-rename.svg</file>
+		<file alias='icons/error.svg'>icons/qbt-theme/error.svg</file>
+		<file alias='icons/expand.svg'>icons/qbt-theme/expand.svg</file>
+		<file alias='icons/filteractive.svg'>icons/qbt-theme/filteractive.svg</file>
+		<file alias='icons/filterall.svg'>icons/qbt-theme/filterall.svg</file>
+		<file alias='icons/filterinactive.svg'>icons/qbt-theme/filterinactive.svg</file>
+		<file alias='icons/filterstalled.svg'>icons/qbt-theme/filterstalled.svg</file>
+		<file alias='icons/firewalled.svg'>icons/qbt-theme/firewalled.svg</file>
+		<file alias='icons/folder-documents.svg'>icons/qbt-theme/folder-documents.svg</file>
+		<file alias='icons/folder-download.svg'>icons/qbt-theme/folder-download.svg</file>
+		<file alias='icons/folder-new.svg'>icons/qbt-theme/folder-new.svg</file>
+		<file alias='icons/folder-remote.svg'>icons/qbt-theme/folder-remote.svg</file>
+		<file alias='icons/gear.svg'>icons/qbt-theme/gear.svg</file>
+		<file alias='icons/gear32.svg'>icons/qbt-theme/gear32.svg</file>
+		<file alias='icons/go-bottom.svg'>icons/qbt-theme/go-bottom.svg</file>
+		<file alias='icons/go-down.svg'>icons/qbt-theme/go-down.svg</file>
+		<file alias='icons/go-top.svg'>icons/qbt-theme/go-top.svg</file>
+		<file alias='icons/go-up.svg'>icons/qbt-theme/go-up.svg</file>
+		<file alias='icons/help-about.svg'>icons/qbt-theme/help-about.svg</file>
+		<file alias='icons/help-contents.svg'>icons/qbt-theme/help-contents.svg</file>
+		<file alias='icons/inode-directory.svg'>icons/qbt-theme/inode-directory.svg</file>
+		<file alias='icons/insert-link.svg'>icons/qbt-theme/insert-link.svg</file>
+		<file alias='icons/kt-magnet.svg'>icons/qbt-theme/kt-magnet.svg</file>
+		<file alias='icons/kt-set-max-download-speed.svg'>icons/qbt-theme/kt-set-max-download-speed.svg</file>
+		<file alias='icons/kt-set-max-upload-speed.svg'>icons/qbt-theme/kt-set-max-upload-speed.svg</file>
+		<file alias='icons/list-add.svg'>icons/qbt-theme/list-add.svg</file>
+		<file alias='icons/list-remove.svg'>icons/qbt-theme/list-remove.svg</file>
+		<file alias='icons/loading.png'>icons/qbt-theme/loading.png</file>
+		<file alias='icons/mail-folder-inbox.svg'>icons/qbt-theme/mail-folder-inbox.svg</file>
+		<file alias='icons/mail-mark-read.svg'>icons/qbt-theme/mail-mark-read.svg</file>
+		<file alias='icons/mascot.png'>icons/qbt-theme/mascot.png</file>
+		<file alias='icons/media-playback-pause.svg'>icons/qbt-theme/media-playback-pause.svg</file>
+		<file alias='icons/media-playback-start.svg'>icons/qbt-theme/media-playback-start.svg</file>
+		<file alias='icons/media-seek-forward.svg'>icons/qbt-theme/media-seek-forward.svg</file>
+		<file alias='icons/network-server.svg'>icons/qbt-theme/network-server.svg</file>
+		<file alias='icons/network-wired.svg'>icons/qbt-theme/network-wired.svg</file>
+		<file alias='icons/object-locked.svg'>icons/qbt-theme/object-locked.svg</file>
+		<file alias='icons/office-chart-line.svg'>icons/qbt-theme/office-chart-line.svg</file>
+		<file alias='icons/paused.svg'>icons/qbt-theme/paused.svg</file>
+		<file alias='icons/preferences-desktop.svg'>icons/qbt-theme/preferences-desktop.svg</file>
+		<file alias='icons/preferences-other.svg'>icons/qbt-theme/preferences-other.svg</file>
+		<file alias='icons/preferences-system-network.svg'>icons/qbt-theme/preferences-system-network.svg</file>
+		<file alias='icons/preferences-web-browser-cookies.svg'>icons/qbt-theme/preferences-web-browser-cookies.svg</file>
+		<file alias='icons/qbittorrent-tray-dark.svg'>icons/qbt-theme/qbittorrent-tray-dark.svg</file>
+		<file alias='icons/qbittorrent-tray-light.svg'>icons/qbt-theme/qbittorrent-tray-light.svg</file>
+		<file alias='icons/qbittorrent-tray-with-font.svg'>icons/qbt-theme/qbittorrent-tray-with-font.svg</file>
+		<file alias='icons/qbittorrent-tray.svg'>icons/qbt-theme/qbittorrent-tray.svg</file>
+		<file alias='icons/queued.svg'>icons/qbt-theme/queued.svg</file>
+		<file alias='icons/ratio.svg'>icons/qbt-theme/ratio.svg</file>
+		<file alias='icons/README.md'>icons/qbt-theme/README.md</file>
+		<file alias='icons/resumed.svg'>icons/qbt-theme/resumed.svg</file>
+		<file alias='icons/rss-config.svg'>icons/qbt-theme/rss-config.svg</file>
+		<file alias='icons/security-high.svg'>icons/qbt-theme/security-high.svg</file>
+		<file alias='icons/security-low.svg'>icons/qbt-theme/security-low.svg</file>
+		<file alias='icons/seeding.svg'>icons/qbt-theme/seeding.svg</file>
+		<file alias='icons/services.svg'>icons/qbt-theme/services.svg</file>
+		<file alias='icons/slow.svg'>icons/qbt-theme/slow.svg</file>
+		<file alias='icons/slow_off.svg'>icons/qbt-theme/slow_off.svg</file>
+		<file alias='icons/speedometer.svg'>icons/qbt-theme/speedometer.svg</file>
+		<file alias='icons/sphere.png'>icons/qbt-theme/sphere.png</file>
+		<file alias='icons/sphere2.png'>icons/qbt-theme/sphere2.png</file>
+		<file alias='icons/splash.png'>icons/qbt-theme/splash.png</file>
+		<file alias='icons/stalledDL.svg'>icons/qbt-theme/stalledDL.svg</file>
+		<file alias='icons/stalledUP.svg'>icons/qbt-theme/stalledUP.svg</file>
+		<file alias='icons/system-log-out.svg'>icons/qbt-theme/system-log-out.svg</file>
+		<file alias='icons/tab-close.svg'>icons/qbt-theme/tab-close.svg</file>
+		<file alias='icons/task-attention.svg'>icons/qbt-theme/task-attention.svg</file>
+		<file alias='icons/task-complete.svg'>icons/qbt-theme/task-complete.svg</file>
+		<file alias='icons/task-ongoing.svg'>icons/qbt-theme/task-ongoing.svg</file>
+		<file alias='icons/task-reject.svg'>icons/qbt-theme/task-reject.svg</file>
+		<file alias='icons/text-plain.svg'>icons/qbt-theme/text-plain.svg</file>
+		<file alias='icons/tools-report-bug.svg'>icons/qbt-theme/tools-report-bug.svg</file>
+		<file alias='icons/unavailable.svg'>icons/qbt-theme/unavailable.svg</file>
+		<file alias='icons/uploading.svg'>icons/qbt-theme/uploading.svg</file>
+		<file alias='icons/user-group-delete.svg'>icons/qbt-theme/user-group-delete.svg</file>
+		<file alias='icons/user-group-new.svg'>icons/qbt-theme/user-group-new.svg</file>
+		<file alias='icons/view-calendar-journal.svg'>icons/qbt-theme/view-calendar-journal.svg</file>
+		<file alias='icons/view-categories.svg'>icons/qbt-theme/view-categories.svg</file>
+		<file alias='icons/view-filter.svg'>icons/qbt-theme/view-filter.svg</file>
+		<file alias='icons/view-preview.svg'>icons/qbt-theme/view-preview.svg</file>
+		<file alias='icons/view-refresh.svg'>icons/qbt-theme/view-refresh.svg</file>
+		<file alias='icons/view-statistics.svg'>icons/qbt-theme/view-statistics.svg</file>
+		<file alias='icons/wallet-open.svg'>icons/qbt-theme/wallet-open.svg</file>
+		<file alias='icons/webui.svg'>icons/qbt-theme/webui.svg</file>
+		
+	</qresource>
+</RCC>
