@@ -179,41 +179,41 @@ QCheckBox::indicator {
 }
 
 QCheckBox::indicator:unchecked {
-  image: url(":/qss_icons/rc/checkbox_unchecked.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked.png");
 }
 
 QCheckBox::indicator:unchecked:hover, QCheckBox::indicator:unchecked:focus, QCheckBox::indicator:unchecked:pressed {
   border: none;
-  image: url(":/qss_icons/rc/checkbox_unchecked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked_focus.png");
 }
 
 QCheckBox::indicator:unchecked:disabled {
-  image: url(":/qss_icons/rc/checkbox_unchecked_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked_disabled.png");
 }
 
 QCheckBox::indicator:checked {
-  image: url(":/qss_icons/rc/checkbox_checked.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked.png");
 }
 
 QCheckBox::indicator:checked:hover, QCheckBox::indicator:checked:focus, QCheckBox::indicator:checked:pressed {
   border: none;
-  image: url(":/qss_icons/rc/checkbox_checked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked_focus.png");
 }
 
 QCheckBox::indicator:checked:disabled {
-  image: url(":/qss_icons/rc/checkbox_checked_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked_disabled.png");
 }
 
 QCheckBox::indicator:indeterminate {
-  image: url(":/qss_icons/rc/checkbox_indeterminate.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_indeterminate.png");
 }
 
 QCheckBox::indicator:indeterminate:disabled {
-  image: url(":/qss_icons/rc/checkbox_indeterminate_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_indeterminate_disabled.png");
 }
 
 QCheckBox::indicator:indeterminate:focus, QCheckBox::indicator:indeterminate:hover, QCheckBox::indicator:indeterminate:pressed {
-  image: url(":/qss_icons/rc/checkbox_indeterminate_focus.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_indeterminate_focus.png");
 }
 
 /* QGroupBox --------------------------------------------------------------
@@ -244,29 +244,29 @@ QGroupBox::indicator { /* Option Group Title Indicator */
   margin-left: 4px;
   height: 12px;
   width: 12px;
-	image: url(":/qss_icons/rc/checkbox_checked.png")
+	image: url(":/uitheme/qss_icons/rc/checkbox_checked.png")
 }
 
 QGroupBox::indicator:unchecked { /* Add elm */
-  image: url(":/qss_icons/rc/checkbox_unchecked.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked.png");
 }
 
 QGroupBox::indicator:unchecked:hover, QGroupBox::indicator:unchecked:focus, QGroupBox::indicator:unchecked:pressed {
   border: none;
-  image: url(":/qss_icons/rc/checkbox_unchecked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked_focus.png");
 }
 
 QGroupBox::indicator:unchecked:disabled {
-  image: url(":/qss_icons/rc/checkbox_unchecked_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked_disabled.png");
 }
 
 QGroupBox::indicator:checked:hover, QGroupBox::indicator:checked:focus, QGroupBox::indicator:checked:pressed {
   border: none;
-  image: url(":/qss_icons/rc/checkbox_checked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked_focus.png");
 }
 
 QGroupBox::indicator:checked:disabled {
-  image: url(":/qss_icons/rc/checkbox_checked_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked_disabled.png");
 }
 
 /* QRadioButton -----------------------------------------------------------
@@ -312,34 +312,34 @@ QRadioButton::indicator {
 }
 
 QRadioButton::indicator:unchecked {
-  image: url(":/qss_icons/rc/radio_unchecked.png");
+  image: url(":/uitheme/qss_icons/rc/radio_unchecked.png");
 }
 
 QRadioButton::indicator:unchecked:hover, QRadioButton::indicator:unchecked:focus, QRadioButton::indicator:unchecked:pressed {
   border: none;
   outline: none;
-  image: url(":/qss_icons/rc/radio_unchecked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/radio_unchecked_focus.png");
 }
 
 QRadioButton::indicator:unchecked:disabled {
-  image: url(":/qss_icons/rc/radio_unchecked_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/radio_unchecked_disabled.png");
 }
 
 QRadioButton::indicator:checked {
   border: none;
   outline: none;
-  image: url(":/qss_icons/rc/radio_checked.png");
+  image: url(":/uitheme/qss_icons/rc/radio_checked.png");
 }
 
 QRadioButton::indicator:checked:hover, QRadioButton::indicator:checked:focus, QRadioButton::indicator:checked:pressed {
   border: none;
   outline: none;
-  image: url(":/qss_icons/rc/radio_checked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/radio_checked_focus.png");
 }
 
 QRadioButton::indicator:checked:disabled {
   outline: none;
-  image: url(":/qss_icons/rc/radio_checked_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/radio_checked_disabled.png");
 }
 
 /* QMenuBar ---------------------------------------------------------------
@@ -443,34 +443,34 @@ QMenu::indicator {
 
 /* reverse : correct order = checked, unchecked, otherwise always checked*/
 QMenu::indicator:non-exclusive:checked { /* Menu checkbox: checked */
-  image: url(":/qss_icons/rc/checkbox_checked.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked.png");
 }
 QMenu::indicator:non-exclusive:checked:selected { /* Menu checkbox: check focus */
-  image: url(":/qss_icons/rc/checkbox_checked_focus.png");/* change */
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked_focus.png");/* change */
 }
 QMenu::indicator:non-exclusive:unchecked { /* Menu checkbox: uncheck */
-  image: url(":/qss_icons/rc/checkbox_unchecked.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked.png");
 }
 QMenu::indicator:non-exclusive:unchecked:selected { /* Menu checkbox: uncheck focus */
-  image: url(":/qss_icons/rc/checkbox_unchecked_focus.png"); /* change */
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked_focus.png"); /* change */
 }
 
 QMenu::indicator:exclusive:checked {
-  image: url(":/qss_icons/rc/radio_checked.png");
+  image: url(":/uitheme/qss_icons/rc/radio_checked.png");
 }
 QMenu::indicator:exclusive:checked:selected {
-  image: url(":/qss_icons/rc/radio_checked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/radio_checked_focus.png");
 }
 QMenu::indicator:exclusive:unchecked {
-  image: url(":/qss_icons/rc/radio_unchecked.png");
+  image: url(":/uitheme/qss_icons/rc/radio_unchecked.png");
 }
 QMenu::indicator:exclusive:unchecked:selected {
-  image: url(":/qss_icons/rc/radio_unchecked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/radio_unchecked_focus.png");
 }
 
 QMenu::right-arrow {
   margin: 5px;
-  image: url(":/qss_icons/rc/arrow_right.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_right.png");
   height: 12px;
   width: 12px;
 }
@@ -570,7 +570,7 @@ QScrollBar::handle:vertical:hover {
 
 QScrollBar::add-line:horizontal {
   margin: 0px 0px 0px 0px;
-  border-image: url(":/qss_icons/rc/arrow_right_disabled.png");
+  border-image: url(":/uitheme/qss_icons/rc/arrow_right_disabled.png");
   height: 12px;
   width: 12px;
   subcontrol-position: right;
@@ -578,12 +578,12 @@ QScrollBar::add-line:horizontal {
 }
 
 QScrollBar::add-line:horizontal:hover, QScrollBar::add-line:horizontal:on {
-  border-image: url(":/qss_icons/rc/arrow_right.png");
+  border-image: url(":/uitheme/qss_icons/rc/arrow_right.png");
 }
 
 QScrollBar::add-line:vertical {
   margin: 3px 0px 3px 0px;
-  border-image: url(":/qss_icons/rc/arrow_down_disabled.png");
+  border-image: url(":/uitheme/qss_icons/rc/arrow_down_disabled.png");
   height: 12px;
   width: 12px;
   subcontrol-position: bottom;
@@ -591,12 +591,12 @@ QScrollBar::add-line:vertical {
 }
 
 QScrollBar::add-line:vertical:hover, QScrollBar::add-line:vertical:on {
-  border-image: url(":/qss_icons/rc/arrow_down.png");
+  border-image: url(":/uitheme/qss_icons/rc/arrow_down.png");
 }
 
 QScrollBar::sub-line:horizontal {
   margin: 0px 3px 0px 3px;
-  border-image: url(":/qss_icons/rc/arrow_left_disabled.png");
+  border-image: url(":/uitheme/qss_icons/rc/arrow_left_disabled.png");
   height: 12px;
   width: 12px;
   subcontrol-position: left;
@@ -604,12 +604,12 @@ QScrollBar::sub-line:horizontal {
 }
 
 QScrollBar::sub-line:horizontal:hover, QScrollBar::sub-line:horizontal:on {
-  border-image: url(":/qss_icons/rc/arrow_left.png");
+  border-image: url(":/uitheme/qss_icons/rc/arrow_left.png");
 }
 
 QScrollBar::sub-line:vertical {
   margin: 3px 0px 3px 0px;
-  border-image: url(":/qss_icons/rc/arrow_up_disabled.png");
+  border-image: url(":/uitheme/qss_icons/rc/arrow_up_disabled.png");
   height: 12px;
   width: 12px;
   subcontrol-position: top;
@@ -617,7 +617,7 @@ QScrollBar::sub-line:vertical {
 }
 
 QScrollBar::sub-line:vertical:hover, QScrollBar::sub-line:vertical:on {
-  border-image: url(":/qss_icons/rc/arrow_up.png");
+  border-image: url(":/uitheme/qss_icons/rc/arrow_up.png");
 }
 
 QScrollBar::up-arrow:horizontal, QScrollBar::down-arrow:horizontal {
@@ -685,7 +685,7 @@ QSizeGrip { /* Main window right bottom Grip icon*/
   border: 1px solid #0A0E14;
   width: 12px;
   height: 12px;
-  image: url(":/qss_icons/rc/window_grip.png");
+  image: url(":/uitheme/qss_icons/rc/window_grip.png");
 }
 
 /* QStackedWidget ---------------------------------------------------------
@@ -739,26 +739,26 @@ QToolBar::separator:vertical { /* Add elm */
 }
 QToolBar::handle:horizontal {
   width: 16px; /* Delete
-  image: url(":/qss_icons/rc/toolbar_move_horizontal.png"); */
+  image: url(":/uitheme/qss_icons/rc/toolbar_move_horizontal.png"); */
 }
 QToolBar::handle:vertical {
   height: 16px; /* Delete
-  image: url(":/qss_icons/rc/toolbar_move_horizontal.png"); */
+  image: url(":/uitheme/qss_icons/rc/toolbar_move_horizontal.png"); */
 }
 QToolBar::separator:horizontal {
   width: 1px; /* Delete
-  image: url(":/qss_icons/rc/toolbar_separator_horizontal.png"); */
+  image: url(":/uitheme/qss_icons/rc/toolbar_separator_horizontal.png"); */
 }
 QToolBar::separator:vertical {
   height: 1px; /* Delete
-  image: url(":/qss_icons/rc/toolbar_separator_vertical.png"); */
+  image: url(":/uitheme/qss_icons/rc/toolbar_separator_vertical.png"); */
 }
 
 QToolButton#qt_toolbar_ext_button {
   background: #273747;
   border: 0px;
   color: #B3B1AD;
-  image: url(":/qss_icons/rc/arrow_right.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_right.png");
 }
 
 /* Also QToolButton below */
@@ -789,13 +789,13 @@ QAbstractSpinBox:up-button {
 }
 
 QAbstractSpinBox::up-arrow, QAbstractSpinBox::up-arrow:disabled, QAbstractSpinBox::up-arrow:off {
-  image: url(":/qss_icons/rc/arrow_up_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_up_disabled.png");
   height: 12px;
   width: 12px;
 }
 
 QAbstractSpinBox::up-arrow:hover {
-  image: url(":/qss_icons/rc/arrow_up.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_up.png");
 }
 
 QAbstractSpinBox:down-button {
@@ -807,13 +807,13 @@ QAbstractSpinBox:down-button {
 }
 
 QAbstractSpinBox::down-arrow, QAbstractSpinBox::down-arrow:disabled, QAbstractSpinBox::down-arrow:off {
-  image: url(":/qss_icons/rc/arrow_down_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_down_disabled.png");
   height: 12px;
   width: 12px;
 }
 
 QAbstractSpinBox::down-arrow:hover {
-  image: url(":/qss_icons/rc/arrow_down.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_down.png");
 }
 
 QAbstractSpinBox:hover {
@@ -1121,7 +1121,7 @@ QToolButton::menu-button:checked:hover {
 }
 
 QToolButton::menu-indicator {
-  image: url(":/qss_icons/rc/arrow_down.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_down.png");
   height: 12px;
   width: 12px;
   top: -8px;
@@ -1131,7 +1131,7 @@ QToolButton::menu-indicator {
 }
 
 QToolButton::menu-arrow {
-  image: url(":/qss_icons/rc/arrow_down.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_down.png");
   height: 12px;
   width: 12px;
 }
@@ -1241,13 +1241,13 @@ QComboBox::drop-down {
 }
 
 QComboBox::down-arrow {
-  image: url(":/qss_icons/rc/arrow_down_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_down_disabled.png");
   height: 12px;
   width: 12px;
 }
 
 QComboBox::down-arrow:on, QComboBox::down-arrow:hover, QComboBox::down-arrow:focus {
-  image: url(":/qss_icons/rc/arrow_down.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_down.png");
 }
 
 /* QSlider ----------------------------------------------------------------
@@ -1462,15 +1462,15 @@ QTabBar::close-button {
   border: 0;
   margin: 2px;
   padding: 2px;
-  image: url(":/qss_icons/rc/window_close.png");
+  image: url(":/uitheme/qss_icons/rc/window_close.png");
 }
 
 QTabBar::close-button:hover {
-  image: url(":/qss_icons/rc/window_close_focus.png");
+  image: url(":/uitheme/qss_icons/rc/window_close_focus.png");
 }
 
 QTabBar::close-button:pressed {
-  image: url(":/qss_icons/rc/window_close_pressed.png");
+  image: url(":/uitheme/qss_icons/rc/window_close_pressed.png");
 }
 
 /* QTabBar::tab - selected ------------------------------------------------
@@ -1594,10 +1594,10 @@ QTabBar QToolButton {
   width: 12px;
 }
 
-QTabBar QToolButton::left-arrow:enabled { image: url(":/qss_icons/rc/arrow_left.png"); }
-QTabBar QToolButton::left-arrow:disabled { image: url(":/qss_icons/rc/arrow_left_disabled.png"); }
-QTabBar QToolButton::right-arrow:enabled { image: url(":/qss_icons/rc/arrow_right.png"); }
-QTabBar QToolButton::right-arrow:disabled { image: url(":/qss_icons/rc/arrow_right_disabled.png"); }
+QTabBar QToolButton::left-arrow:enabled { image: url(":/uitheme/qss_icons/rc/arrow_left.png"); }
+QTabBar QToolButton::left-arrow:disabled { image: url(":/uitheme/qss_icons/rc/arrow_left_disabled.png"); }
+QTabBar QToolButton::right-arrow:enabled { image: url(":/uitheme/qss_icons/rc/arrow_right.png"); }
+QTabBar QToolButton::right-arrow:disabled { image: url(":/uitheme/qss_icons/rc/arrow_right_disabled.png"); }
 
 /* QDockWiget -------------------------------------------------------------
 
@@ -1607,8 +1607,8 @@ QDockWidget { /* Memo : Unused below QDockWidget? */
   background-color: #0A0E14;
   border: 1px solid #273747;
   border-radius: 4px;
-  titlebar-close-icon: url(":/qss_icons/rc/window_close.png");
-  titlebar-normal-icon: url(":/qss_icons/rc/window_undock.png");
+  titlebar-close-icon: url(":/uitheme/qss_icons/rc/window_close.png");
+  titlebar-normal-icon: url(":/uitheme/qss_icons/rc/window_undock.png");
 }
 
 QDockWidget::title {
@@ -1625,11 +1625,11 @@ QDockWidget::close-button {
 }
 
 QDockWidget::close-button:hover {
-  image: url(":/qss_icons/rc/window_close_focus.png");
+  image: url(":/uitheme/qss_icons/rc/window_close_focus.png");
 }
 
 QDockWidget::close-button:pressed {
-  image: url(":/qss_icons/rc/window_close_pressed.png");
+  image: url(":/uitheme/qss_icons/rc/window_close_pressed.png");
 }
 
 QDockWidget::float-button {
@@ -1639,11 +1639,11 @@ QDockWidget::float-button {
 }
 
 QDockWidget::float-button:hover {
-  image: url(":/qss_icons/rc/window_undock_focus.png");
+  image: url(":/uitheme/qss_icons/rc/window_undock_focus.png");
 }
 
 QDockWidget::float-button:pressed {
-  image: url(":/qss_icons/rc/window_undock_pressed.png");
+  image: url(":/uitheme/qss_icons/rc/window_undock_pressed.png");
 }
 
 /* QTreeView QListView QTableView -----------------------------------------
@@ -1654,63 +1654,63 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qtableview
 
 --------------------------------------------------------------------------- */
 QTreeView:branch:selected, QTreeView:branch:hover {
-  background: url(":/qss_icons/rc/transparent.png");
+  background: url(":/uitheme/qss_icons/rc/transparent.png");
 }
 QTreeView:branch:has-siblings:!adjoins-item {
-  border-image: url(":/qss_icons/rc/branch_line.png") 0;
+  border-image: url(":/uitheme/qss_icons/rc/branch_line.png") 0;
 }
 QTreeView:branch:has-siblings:adjoins-item {
-  border-image: url(":/qss_icons/rc/branch_more.png") 0;
+  border-image: url(":/uitheme/qss_icons/rc/branch_more.png") 0;
 }
 QTreeView:branch:!has-children:!has-siblings:adjoins-item {
-  border-image: url(":/qss_icons/rc/branch_end.png") 0;
+  border-image: url(":/uitheme/qss_icons/rc/branch_end.png") 0;
 }
 
 QTreeView:branch:has-children:!has-siblings:closed, QTreeView:branch:closed:has-children:has-siblings {
   border-image: none;
-  image: url(":/qss_icons/rc/branch_closed.png");
+  image: url(":/uitheme/qss_icons/rc/branch_closed.png");
 }
 QTreeView:branch:open:has-children:!has-siblings, QTreeView:branch:open:has-children:has-siblings {
   border-image: none;
-  image: url(":/qss_icons/rc/branch_open.png");
+  image: url(":/uitheme/qss_icons/rc/branch_open.png");
 }
 QTreeView:branch:has-children:!has-siblings:closed:hover, QTreeView:branch:closed:has-children:has-siblings:hover {
-  image: url(":/qss_icons/rc/branch_closed_focus.png");
+  image: url(":/uitheme/qss_icons/rc/branch_closed_focus.png");
 }
 QTreeView:branch:open:has-children:!has-siblings:hover, QTreeView:branch:open:has-children:has-siblings:hover {
-  image: url(":/qss_icons/rc/branch_open_focus.png");
+  image: url(":/uitheme/qss_icons/rc/branch_open_focus.png");
 }
 
 QTreeView::indicator:checked,
 QListView::indicator:checked {
-  image: url(":/qss_icons/rc/checkbox_checked.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked.png");
 }
 QTreeView::indicator:checked:hover, QTreeView::indicator:checked:focus, QTreeView::indicator:checked:pressed,
 QListView::indicator:checked:hover,
 QListView::indicator:checked:focus,
 QListView::indicator:checked:pressed {
-  image: url(":/qss_icons/rc/checkbox_checked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked_focus.png");
 }
 QTreeView::indicator:unchecked,
 QListView::indicator:unchecked {
-  image: url(":/qss_icons/rc/checkbox_unchecked.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked.png");
 }
 QTreeView::indicator:unchecked:hover, QTreeView::indicator:unchecked:focus, QTreeView::indicator:unchecked:pressed,
 QListView::indicator:unchecked:hover,
 QListView::indicator:unchecked:focus,
 QListView::indicator:unchecked:pressed {
-  image: url(":/qss_icons/rc/checkbox_unchecked_focus.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_unchecked_focus.png");
 }
 
 QTreeView::indicator:indeterminate,
 QListView::indicator:indeterminate {
-  image: url(":/qss_icons/rc/checkbox_indeterminate.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_indeterminate.png");
 }
 QTreeView::indicator:indeterminate:hover, QTreeView::indicator:indeterminate:focus, QTreeView::indicator:indeterminate:pressed,
 QListView::indicator:indeterminate:hover,
 QListView::indicator:indeterminate:focus,
 QListView::indicator:indeterminate:pressed {
-  image: url(":/qss_icons/rc/checkbox_indeterminate_focus.png");
+  image: url(":/uitheme/qss_icons/rc/checkbox_indeterminate_focus.png");
 }
 
 QTreeView,
@@ -1819,11 +1819,11 @@ QListView::item { /* Memo: Left Sidebar : each nonactive item (STATUS, TRACKERS)
   /* height:20px; */ /* Delete: reason : These narrowed height on 2160p screen */
 }
 QTabWidget QTabWidget QListView::item { /* patch : Excution Log */
-  background-color: #48524f; /* Excution Log item bg*/
+  background-color: #0A0E14; /* Excution Log item bg*/
   padding: 0px; /* change for : Excution Log's Line height */
 }
 QTabWidget QTabWidget QListView QListView::item:hover { /* patch : Excution Log */
-  background-color: #404933;
+  background-color: #48524f;
 }
 
 QListView::item:selected,
@@ -1876,11 +1876,11 @@ QColumnView QMenu::item {  background-color: #FFEE99; }
 QTabWidget QTreeView QWidget::indicator:non-exclusive:checked { /* transfer list : context menu > Menu checkbox: checked */
   width: 12px;
   height: 12px;
-  image: url(":/qss_icons/rc/checkbox_checked.png"); }
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked.png"); }
 QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:hover,
 QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:focus,
 QTabWidget QTreeView QWidget::indicator:non-exclusive:checked:pressed {
-  image: url(":/qss_icons/rc/checkbox_checked_focus.png"); }
+  image: url(":/uitheme/qss_icons/rc/checkbox_checked_focus.png"); }
 QTabWidget QTreeView QWidget::indicator:non-exclusive:unchecked,
 QTabWidget QTreeView QWidget::indicator:non-exclusive:unchecked:hover,
 QTabWidget QTreeView QWidget::indicator:non-exclusive:unchecked:focus,
@@ -2006,14 +2006,14 @@ QHeaderView::down-arrow {
   color: #626A73;
   height: 12px;
   width: 12px;
-  image: url(":/qss_icons/rc/arrow_down.png"); /* used */
+  image: url(":/uitheme/qss_icons/rc/arrow_down.png"); /* used */
 }
 
 QHeaderView::up-arrow {
   background-color: #273747;
   height: 12px;
   width: 12px;
-  image: url(":/qss_icons/rc/arrow_up.png"); /* used */
+  image: url(":/uitheme/qss_icons/rc/arrow_up.png"); /* used */
 }
 
 
@@ -2128,12 +2128,12 @@ QSplitter::separator:hover {
 
 QSplitter::separator:horizontal {
   width: 5px;
-  image: url(":/qss_icons/rc/line_vertical.png");
+  image: url(":/uitheme/qss_icons/rc/line_vertical.png");
 }
 
 QSplitter::separator:vertical {
   height: 5px;
-  image: url(":/qss_icons/rc/line_horizontal.png");
+  image: url(":/uitheme/qss_icons/rc/line_horizontal.png");
 }
 
 /* QDateEdit --------------------------------------------------------------
@@ -2166,13 +2166,13 @@ QDateEdit::drop-down {
 }
 
 QDateEdit::down-arrow {
-  image: url(":/qss_icons/rc/arrow_down_disabled.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_down_disabled.png");
   height: 12px;
   width: 12px;
 }
 
 QDateEdit::down-arrow:on, QDateEdit::down-arrow:hover, QDateEdit::down-arrow:focus {
-  image: url(":/qss_icons/rc/arrow_down.png");
+  image: url(":/uitheme/qss_icons/rc/arrow_down.png");
 }
 
 QDateEdit QAbstractItemView {
@@ -2195,27 +2195,5 @@ QAbstractView:selected { /* Memo: not found */
 PlotWidget {
   /* Fix cut labels in plots #134 */
   padding: 0px;
-}
-
-TransferListWidget {
-  qproperty-downloadingStateForeground: #C2D94C;
-  qproperty-forcedDownloadingStateForeground: #C2D94C;
-  qproperty-downloadingMetadataStateForeground: #C2D94C;
-  qproperty-allocatingStateForeground: #626A73;
-  qproperty-stalledDownloadingStateForeground: #626A73;
-  qproperty-stalledUploadingStateForeground: #626A73;
-  qproperty-uploadingStateForeground: #39BAE6;
-  qproperty-forcedUploadingStateForeground: #39BAE6;
-  qproperty-pausedDownloadingStateForeground: #FF8F40;
-  qproperty-pausedUploadingStateForeground: #39BAE6;
-  qproperty-errorStateForeground: #F07178;
-  qproperty-missingFilesStateForeground: #F07178;
-  qproperty-queuedDownloadingStateForeground: #C2D94C;
-  qproperty-queuedUploadingStateForeground: #C2D94C;
-  qproperty-checkingDownloadingStateForeground: #C2D94C;
-  qproperty-checkingUploadingStateForeground: #C2D94C;
-  qproperty-checkingResumeDataStateForeground: #C2D94C;
-  qproperty-movingStateForeground: #C2D94C;
-  qproperty-unknownStateForeground: #F07178;
 }
 

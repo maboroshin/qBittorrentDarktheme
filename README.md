@@ -27,7 +27,8 @@ Probably cannot be changed in the theme file.
 ## Compile
 *[More info...](https://github.com/maboroshin/qBittorrentDarktheme/wiki/How-to-compile-.qbtheme)*
 
-Rename `src\stylesheet~~.qss`  to `src\stylesheet.qss`, and compile `resources.qrc` by Qt rcc.
+To compile, use `rcc -binary -o <theme>.qbtheme src/resources_<theme>.qrc`. You can name the output file whatever you wish, but having it end in `.qbtheme` lets QBittorrent read it easier.
+Exampe: `rcc -binary -o mytheme.qbtheme src/resources_Absinthe.qrc` will compile the Absinthe theme and name the file mytheme.qbtheme.
 
 ## License
 [Jagannatharjun says](https://github.com/qbittorrent/qBittorrent/issues/6434#issuecomment-581101910):

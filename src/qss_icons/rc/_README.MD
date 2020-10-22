@@ -1,1 +1,0 @@
-from https://github.com/ColinDuquesnoy/QDarkStyleSheet/tree/master/qdarkstyle/rc
