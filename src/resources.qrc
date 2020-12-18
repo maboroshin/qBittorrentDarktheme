@@ -6,6 +6,7 @@
 		<file>sphere.png</file>
 		<file>sphere2.png</file>
 		<file>stylesheet.qss</file>
+		<file>config.json</file>
 		<file>icons\iconconfig.json</file>
 		<file>icons\qbt-theme\application-exit.svg</file>
 		<file>icons\qbt-theme\application-rss+xml.svg</file>

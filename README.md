@@ -16,18 +16,14 @@ Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issue
 * Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/)
 
 ## Known issue
-*[More info: Issues waiting for release 4.22](https://github.com/maboroshin/qBittorrentDarktheme/issues/2)*<br>
-*[More info2: Unknown issue](https://github.com/maboroshin/qBittorrentDarktheme/issues/3)*
-
 Probably cannot be changed in the theme file.
 - Progress bar color fixed.
-- Link color fixed to blue.
 - strangeness of check items, In right-click transfer list.
 
 ## Compile
 *[More info...](https://github.com/maboroshin/qBittorrentDarktheme/wiki/How-to-compile-.qbtheme)*
 
-Rename `src\stylesheet~~.qss`  to `src\stylesheet.qss`, and compile `resources.qrc` by Qt rcc.
+Rename `src\stylesheet~~.qss` to `src\stylesheet.qss`, Rename `src\config~~.json` to `src\config.json`, and compile `resources.qrc` by Qt rcc. 
 
 ## License
 [Jagannatharjun says](https://github.com/qbittorrent/qBittorrent/issues/6434#issuecomment-581101910):

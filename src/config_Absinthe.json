@@ -1,0 +1,37 @@
+{
+    "colors": {
+        "Palette.Window": "#131418",
+        "Palette.WindowText": "#BEC7BA",
+        "Palette.Link": "#90B998",
+        "Palette.LinkVisited": "#A08EAE",
+        
+        "Log.Time": "#4A956D",
+        "Log.Normal": "#BEC7BA",
+        "Log.Info": "#A5B352",
+        "Log.Warning": "#BBA944",
+        "Log.Critical": "#C69492",
+        "Log.BannedPeer": "#A08EAE",
+
+        "RSS.ReadArticle": "#BEC7BA",
+        "RSS.UnreadArticle": "#1D2E03",
+        
+        "TransferList.Downloading": "#A5B352",
+        "TransferList.ForcedDownloading": "#A5B352",
+        "TransferList.DownloadingMetadata": "#A5B352",
+        "TransferList.Allocating": "#BEC7BA",
+        "TransferList.StalledDownloading": "#BEC7BA",
+        "TransferList.StalledUploading": "#BEC7BA",
+        "TransferList.Uploading": "#90B998",
+        "TransferList.ForcedUploading": "#90B998",
+        "TransferList.PausedDownloading": "#BBA944",
+        "TransferList.PausedUploading": "#90B998",
+        "TransferList.Error": "R3D0000",
+        "TransferList.MissingFiles": "R3D0000",
+        "TransferList.QueuedDownloading": "#A5B352",
+        "TransferList.QueuedUploading": "#A5B352",
+        "TransferList.CheckingDownloading": "#A5B352",
+        "TransferList.CheckingUploading": "#A5B352",
+        "TransferList.CheckingResumeData": "#A5B352",
+        "TransferList.Moving": "#C69492"
+    }
+}
