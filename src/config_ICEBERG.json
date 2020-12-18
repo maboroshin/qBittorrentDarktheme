@@ -1,0 +1,43 @@
+{
+    "colors": {
+        "Palette.Window": "#161821",
+        "Palette.WindowText": "#C6C8D1",
+        "Palette.Base": "#161821",
+        "Palette.AlternateBase": "#1E2132",
+        "Palette.Text": "#C6C8D1",
+        "Palette.ToolTipBase": "#1E2132",
+        "Palette.ToolTipText": "#C6C8D1",
+        "Palette.BrightText": "#C0CA8E",
+        "Palette.Link": "#89B8C2",
+        "Palette.LinkVisited": "#A093C7",
+        
+        "Log.Time": "#9A9CA5",
+        "Log.Normal": "#C6C8D1",
+        "Log.Info": "#B4BE82",
+        "Log.Warning": "#E2A478",
+        "Log.Critical": "#E27878",
+        "Log.BannedPeer": "#A093C7",
+
+        "RSS.ReadArticle": "#C6C8D1",
+        "RSS.UnreadArticle": "#89B8C2",
+        
+        "TransferList.Downloading": "#B4BE82",
+        "TransferList.ForcedDownloading": "#B4BE82",
+        "TransferList.DownloadingMetadata": "#B4BE82",
+        "TransferList.Allocating": "#C6C8D1",
+        "TransferList.StalledDownloading": "#C6C8D1",
+        "TransferList.StalledUploading": "#C6C8D1",
+        "TransferList.Uploading": "#89B8C2",
+        "TransferList.ForcedUploading": "#89B8C2",
+        "TransferList.PausedDownloading": "#E2A478",
+        "TransferList.PausedUploading": "#89B8C2",
+        "TransferList.Error": "R3D0000",
+        "TransferList.MissingFiles": "R3D0000",
+        "TransferList.QueuedDownloading": "#B4BE82",
+        "TransferList.QueuedUploading": "#B4BE82",
+        "TransferList.CheckingDownloading": "#B4BE82",
+        "TransferList.CheckingUploading": "#B4BE82",
+        "TransferList.CheckingResumeData": "#B4BE82",
+        "TransferList.Moving": "#E27878"
+    }
+}

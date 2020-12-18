@@ -1803,9 +1803,11 @@ QTabWidget QStackedWidget QStackedWidget QTreeView:active { /* Transfer list's b
 QTabWidget QStackedWidget QGroupBox { /* General border */
   border: 1px solid #3D425B;
 }
-QTabWidget QStackedWidget QListView { /* patch : RSS middle and right */
+/* del
+QTabWidget QStackedWidget QListView { patch : RSS middle and right
   background-color: #404933;
 }
+*/
 QTabWidget QStackedWidget QStackedWidget QListView { /* patch : above RSS patch fix : to HTTP source tab*/
   background-color: #161821;
 }
@@ -1819,12 +1821,15 @@ QListView::item { /* Memo: Left Sidebar : each nonactive item (STATUS, TRACKERS)
   /* height:20px; */ /* Delete: reason : These narrowed height on 2160p screen */
 }
 QTabWidget QTabWidget QListView::item { /* patch : Excution Log */
-  background-color: #48524f; /* Excution Log item bg*/
+  /* background-color: #48524f; Excution Log item bg*/
   padding: 0px; /* change for : Excution Log's Line height */
 }
-QTabWidget QTabWidget QListView QListView::item:hover { /* patch : Excution Log */
+
+ /* del
+QTabWidget QTabWidget QListView QListView::item:hover { patch : Excution Log 
   background-color: #404933;
 }
+*/
 
 QListView::item:selected,
 QListView::item:selected:active {
@@ -2201,9 +2206,9 @@ TransferListWidget {
   qproperty-downloadingStateForeground: #B4BE82;
   qproperty-forcedDownloadingStateForeground: #B4BE82;
   qproperty-downloadingMetadataStateForeground: #B4BE82;
-  qproperty-allocatingStateForeground: #9A9CA5;
-  qproperty-stalledDownloadingStateForeground: #9A9CA5;
-  qproperty-stalledUploadingStateForeground: #9A9CA5;
+  qproperty-allocatingStateForeground: #C6C8D1;
+  qproperty-stalledDownloadingStateForeground: #C6C8D1;
+  qproperty-stalledUploadingStateForeground: #C6C8D1;
   qproperty-uploadingStateForeground: #89B8C2;
   qproperty-forcedUploadingStateForeground: #89B8C2;
   qproperty-pausedDownloadingStateForeground: #E2A478;
@@ -2217,5 +2222,14 @@ TransferListWidget {
   qproperty-checkingResumeDataStateForeground: #B4BE82;
   qproperty-movingStateForeground: #B4BE82;
   qproperty-unknownStateForeground: #E27878;
+}
+
+LogWidget {
+  qproperty-time: #9A9CA5;
+  qproperty-normal: #C6C8D1;
+  qproperty-info: #B4BE82;
+  qproperty-Warning: #E2A478;
+  qproperty-Critical: #E27878;
+  qproperty-BannedPeer: #A093C7;
 }
 
