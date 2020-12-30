@@ -2,7 +2,7 @@
 Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jagannatharjun/qbt-theme)
 
 **ICEBERG.qbtheme**<br>
-<img src="qbdark_sample.jpg" width=50%>
+<img src="https://user-images.githubusercontent.com/41102508/103367708-2a377b00-4b09-11eb-97cf-94a208197123.jpg" width=50%>
 
 - [Other qbtheme pictures](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-610990126)
 - Color Themes: [Absinthe](https://github.com/maboroshin/Absinthe.color) (My original color theme) / [Solarized](https://github.com/altercation/solarized#solarized) / [ICEBERG](https://github.com/cocopon/iceberg.vim#readme) / [ayu dark](https://github.com/dempfi/ayu#screenshots) / 
