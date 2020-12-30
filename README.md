@@ -16,8 +16,10 @@ Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issue
 * Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/)
 
 ## Known issue
+*[Unknown issue](https://github.com/maboroshin/qBittorrentDarktheme/issues/3)* <br>
+*[Colors don't change on Linux](https://github.com/qbittorrent/qBittorrent/issues/13410)*
+
 Probably cannot be changed in the theme file.
-- Progress bar color fixed.
 - strangeness of check items, In right-click transfer list.
 
 ## Compile
