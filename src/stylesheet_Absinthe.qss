@@ -68,8 +68,8 @@ See Qt documentation:
 --------------------------------------------------------------------------- */
 QWidget {
   background-color: #131418; /* whole outer */
-  border: 0px solid #97B7C0; /* change , not found */
-  padding: 0px;
+  /* border: 0px solid #97B7C0; Delete for Progressbar, not found
+  padding: 0px; */
   color: #BEC7BA;
   selection-background-color: #172418; /* change */
   selection-color: #BFBD33; /* change */
@@ -925,32 +925,26 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qprogressbar
 --------------------------------------------------------------------------- */
 QProgressBar {
   background-color: #131418;
-  border: 1px solid #1D2E03;
+  /* border: 1px solid #4A956D; delete */
   color: #BEC7BA;
-  border-radius: 4px;
-  text-align: center;
 }
 
 QProgressBar:disabled {
   background-color: #131418;
-  border: 1px solid #1D2E03;
   color: #4A956D;
-  border-radius: 4px;
   text-align: center;
 }
-
+/* Delete
 QProgressBar::chunk {
-  background: #90B998; /* Change */
-  color: #131418; /* change */
-  border-radius: 4px;
+  background: #1D2E03; Change
+  color: #BEC7BA;
 }
 
 QProgressBar::chunk:disabled {
   background-color: #4A956D;
   color: #4A956D;
-  border-radius: 4px;
 }
-
+ */
 /* ------------------------------------------------------------------------ */
 /* BUTTONS ---------------------------------------------------------------- */
 /* ------------------------------------------------------------------------ */
