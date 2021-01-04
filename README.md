@@ -28,6 +28,8 @@ Probably cannot be changed in the theme file.
 
 Rename `src\stylesheet~~.qss` to `src\stylesheet.qss`, Rename `src\config~~.json` to `src\config.json`, and compile `resources.qrc` by Qt rcc. 
 
+* [qBittorrentSVGiconConverter](https://github.com/maboroshin/qBittorrentSVGiconConverter)
+
 ## License
 [Jagannatharjun says](https://github.com/qbittorrent/qBittorrent/issues/6434#issuecomment-581101910):
 > none of the stylesheets belongs to me<br>
