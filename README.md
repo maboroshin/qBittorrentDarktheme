@@ -2,7 +2,7 @@
 Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jagannatharjun/qbt-theme)
 
 **ICEBERG.qbtheme**<br>
-<img src="https://user-images.githubusercontent.com/41102508/103367708-2a377b00-4b09-11eb-97cf-94a208197123.jpg" width=50%>
+<img src="https://user-images.githubusercontent.com/41102508/103507904-83a20000-4ea3-11eb-971c-f74983f6391f.png" width=50%>
 
 - [Other qbtheme pictures](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-610990126)
 - Color Themes: [Absinthe](https://github.com/maboroshin/Absinthe.color) (My original color theme) / [Solarized](https://github.com/altercation/solarized#solarized) / [ICEBERG](https://github.com/cocopon/iceberg.vim#readme) / [ayu dark](https://github.com/dempfi/ayu#screenshots) / 
@@ -13,7 +13,8 @@ Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use T
 ## Q&A
 Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issues/1).
 
-* Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/)
+* Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/) <br>
+* *[Can I make the title bar to dark?](https://github.com/maboroshin/qBittorrentDarktheme/issues/19)*
 
 ## Known issue
 *[Unknown issue](https://github.com/maboroshin/qBittorrentDarktheme/issues/3)* <br>
