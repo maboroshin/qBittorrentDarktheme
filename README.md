@@ -4,7 +4,7 @@ Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jaganna
 **ICEBERG.qbtheme**<br>
 <img src="https://user-images.githubusercontent.com/41102508/103507904-83a20000-4ea3-11eb-971c-f74983f6391f.png" width=50%>
 
-- [Other qbtheme pictures](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-610990126)
+*[Other qbtheme pictures](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-610990126)*
 - Color Themes: [Absinthe](https://github.com/maboroshin/Absinthe.color) (My original color theme) / [Solarized](https://github.com/altercation/solarized#solarized) / [ICEBERG](https://github.com/cocopon/iceberg.vim#readme) / [ayu dark](https://github.com/dempfi/ayu#screenshots) / 
 
 ## Usage
@@ -13,8 +13,8 @@ Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use T
 ## Q&A
 Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issues/1).
 
-* Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/) <br>
-* *[Can I make the title bar to dark?](https://github.com/maboroshin/qBittorrentDarktheme/issues/19)*
+* *[Can I make the title bar to dark?](https://github.com/maboroshin/qBittorrentDarktheme/issues/19)* <br>
+* Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/)
 
 ## Known issue
 *[Unknown issue](https://github.com/maboroshin/qBittorrentDarktheme/issues/3)* <br>
@@ -28,6 +28,7 @@ Probably cannot be changed in the theme file.
 
 Rename `src\stylesheet~~.qss` to `src\stylesheet.qss`, Rename `src\config~~.json` to `src\config.json`, and compile `resources.qrc` by Qt rcc. 
 
+* [List of icons](https://github.com/maboroshin/qBittorrentDarktheme/wiki)
 * [qBittorrentSVGiconConverter](https://github.com/maboroshin/qBittorrentSVGiconConverter)
 
 ## License
