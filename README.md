@@ -2,9 +2,9 @@
 Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jagannatharjun/qbt-theme)
 
 **ICEBERG.qbtheme**<br>
-<img src="https://user-images.githubusercontent.com/41102508/103507904-83a20000-4ea3-11eb-971c-f74983f6391f.png" width=50%>
+<img src="https://user-images.githubusercontent.com/41102508/133913803-9a05d282-8946-4e34-964a-397b33f44852.png" width=50%>
 
-*[Other qbtheme pictures](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-610990126)*
+*[Other qbtheme pictures](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-922406777)*
 - Color Themes: [Absinthe](https://github.com/maboroshin/Absinthe.color) (My original color theme) / [Solarized](https://github.com/altercation/solarized#solarized) / [ICEBERG](https://github.com/cocopon/iceberg.vim#readme) / [ayu dark](https://github.com/dempfi/ayu#screenshots) / 
 
 ## Usage
