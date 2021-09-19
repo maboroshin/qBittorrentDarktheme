@@ -925,8 +925,8 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qprogressbar
 --------------------------------------------------------------------------- */
 QProgressBar {
   margin: 2px 0 0;
-  background: #404040;
-  color: #dadada;
+  background: #303030;
+  color: #C6C8D1;
   border-top: 1px solid #191919 ;
   border-bottom: 1px solid #3c3c3c ;
   border-left: 1px solid #1d1e20 ;
@@ -946,7 +946,7 @@ QProgressBar::chunk {
 
 QProgressBar:disabled {
   background-color: #161821;
-  color: #9A9CA5;
+  color: #C6C8D1;
 }
 
 QProgressBar::chunk:disabled {
