@@ -924,27 +924,38 @@ https://doc.qt.io/qt-5/stylesheet-examples.html#customizing-qprogressbar
 
 --------------------------------------------------------------------------- */
 QProgressBar {
-  background-color: #131418;
-  /* border: 1px solid #4A956D; delete */
-  color: #BEC7BA;
+  margin: 2px 0 0;
+  background: #404040;
+  color: #dadada;
+  border-top: 1px solid #191919 ;
+  border-bottom: 1px solid #3c3c3c ;
+  border-left: 1px solid #1d1e20 ;
+  border-right: 1px solid #434343 ;
+  border-radius: 6px ;
+
+  text-align: center;
+  font: bold;
+}
+
+QProgressBar::chunk {
+  background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+                                      stop:0 #3d9cc7, stop:0.1 #3a6dad, stop: 0.9 #3a6dad, stop:1 #101c3f);
+  border : 1px solid #111111;
+  border-radius: 6px ;
 }
 
 QProgressBar:disabled {
   background-color: #131418;
   color: #4A956D;
-  text-align: center;
-}
-/* Delete
-QProgressBar::chunk {
-  background: #1D2E03; Change
-  color: #BEC7BA;
 }
 
 QProgressBar::chunk:disabled {
-  background-color: #4A956D;
-  color: #4A956D;
+  background-color: #131418;
+  border : 1px solid #C69492 ;
+  border-radius: 2px ;
+  margin: 1px ;
 }
- */
+
 /* ------------------------------------------------------------------------ */
 /* BUTTONS ---------------------------------------------------------------- */
 /* ------------------------------------------------------------------------ */
