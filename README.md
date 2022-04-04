@@ -13,7 +13,7 @@ Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use T
 ## Q&A
 Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issues/1).
 
-* [Darken Title Bar using MicaForEveryone in WIndows 11](https://github.com/maboroshin/qBittorrentDarktheme/issues/19#issuecomment-1033252496)
+* [Darken Title Bar using MicaForEveryone in WIndows 11](https://github.com/maboroshin/qBittorrentDarktheme/issues/19#issuecomment-1087499340)
 * Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/)
 
 ## Known issue
