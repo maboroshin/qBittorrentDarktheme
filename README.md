@@ -13,7 +13,9 @@ Download the ZIP (green button) or individual RAW `.qbtheme` files. Please use T
 ## Q&A
 Please use [this place](https://github.com/maboroshin/qBittorrentDarktheme/issues/1).
 
-* [Darken Title Bar using MicaForEveryone in WIndows 11](https://github.com/maboroshin/qBittorrentDarktheme/issues/19#issuecomment-1087499340)
+* [Dark Mode (Native Support) #17081 on qBittorrent](https://github.com/qbittorrent/qBittorrent/issues/17081#issuecomment-1347840696) : Late 2023? qBittorrent's native dark theme is being experimented
+* * Also a new, easier way to change colors could be implemented in qBittorrent.
+* [Darken Title Bar using MicaForEveryone in WIndows 11](https://github.com/maboroshin/qBittorrentDarktheme/issues/19#issuecomment-1087499340), or via OS Settings in Win 10.
 * Torrents for testing: [Public Domain Torrents](https://www.publicdomaintorrents.info/)
 
 ## Known issue
