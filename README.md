@@ -1,7 +1,7 @@
 # qBittorrent Dark theme
 Derived from: [**jagannatharjun**/qbt-theme/material](https://github.com/jagannatharjun/qbt-theme)
 
-**ICEBERG.qbtheme (Windouws 10)**<br>
+**ICEBERG.qbtheme (Windows 10)**<br>
 <img src="https://user-images.githubusercontent.com/41102508/133913803-9a05d282-8946-4e34-964a-397b33f44852.png" width=50%>
 
 *[Other qbtheme pictures](https://github.com/maboroshin/qBittorrentDarktheme/issues/9#issuecomment-922406777)*
